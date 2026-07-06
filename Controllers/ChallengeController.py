@@ -6,21 +6,21 @@ from Views.GetChallengeView import GetChallengeView
 
 @app_commands.command(name="get_challenge_any", description="Get the challenge for any state in the game.")
 async def get_challenge_any(interaction: Interaction) -> None:
-    with StateModel() as sm:
-        options = list(sm.states.values())
     await interaction.response.send_message(
-        "lol, this doesn't work yet.",
-        view=GetChallengeView(options),
+        "Pick state to see challenge for.",
+        view=GetChallengeView(
+            show_all=True,
+        ),
         ephemeral=True,
     )
     
 @app_commands.command(name="get_challenge", description="View the challenge for a state in the tableau.")
 async def get_challenge(interaction: Interaction) -> None:
-    with StateModel() as sm:
-        options = list(sm.states.values())
     await interaction.response.send_message(
-        "lol, this doesn't work yet.",
-        view=GetChallengeView(options),
+        "Pick state to see challenge for.",
+        view=GetChallengeView(
+            owner=interaction.user,
+        ),
         ephemeral=True,
     )
     

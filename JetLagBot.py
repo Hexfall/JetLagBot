@@ -1,6 +1,7 @@
 from discord import Client, app_commands, Intents, User, Reaction
 
 from Controllers.ChallengeController import ChallengeController
+from Controllers.GameController import GameController
 
 
 class JetLagBot(Client):
@@ -16,6 +17,7 @@ class JetLagBot(Client):
         
     async def setup_hook(self) -> None:
         ChallengeController().register_commands(self.tree)
+        GameController().register_commands(self.tree)
         
         await self.tree.sync()
         print("Completed command syncing.")

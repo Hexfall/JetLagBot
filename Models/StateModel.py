@@ -22,4 +22,7 @@ class StateModel:
     
     def __exit__(self, exc_type, exc_val, exc_tb):
         pass
+    
+    def get_state_ids(self) -> list[int]:
+        return list(self.states.keys())
         

@@ -9,12 +9,12 @@ HAND_SIZE = 3
 class Deck:
     def __init__(
             self, 
-            cards: list[int], 
+            deck: list[int], 
             tableau: list[int] = None,
             hands: dict[str, list[int]] = None,
             claimed: dict[str, list[int]] = None,
     ):
-        self.deck: list[int] = cards
+        self.deck: list[int] = deck
         
         if tableau is None:
             tableau = []
@@ -90,7 +90,5 @@ class Deck:
     def to_json(self):
         return json.dumps(self, default=lambda o: o.__dict__, indent=4)
     
-
-if __name__ == "__main__":
-    deck = Deck([i for i in range(1, 33)]) 
-    print(deck.to_json())
+    def to_dict(self):
+        return self.__dict__
