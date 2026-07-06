@@ -30,4 +30,4 @@ class Challenge:
         return self.title
     
     def markup_format(self):
-        return f"# {self.title}\n{self.description}"
+        return f"## {self.title}\n{self.description}"
