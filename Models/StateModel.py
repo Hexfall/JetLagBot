@@ -13,7 +13,6 @@ class StateModel:
         with open(data_path.joinpath("States.json"), "r") as f:
             d: dict = json.load(f)
             self.states = {int(k): State.from_dict(v) for k, v in d.items()}
-        print(self.states)
     
     def get_state(self, state_id: int) -> State:
         return self.states[state_id]
