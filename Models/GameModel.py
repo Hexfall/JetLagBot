@@ -58,3 +58,9 @@ class GameModel:
 
     def get_private_hand(self, team: Optional[str]):
         return self.game.get_private_cards(team)
+
+    def get_claimed(self, team: str) -> list[int]:
+        return self.game.deck.claimed[team]
+    
+    def get_captain(self, team: str) -> str:
+        return self.game.captains[team]

@@ -58,7 +58,24 @@ async def get_options(interaction: Interaction):
 
 @app_commands.command(name="get_status", description="Get's the current board state.")
 async def get_status(interaction: Interaction):
-    pass
+    with GameModel() as gm:
+        red_claimed_ids = gm.get_claimed('red')
+        red_captain = gm.get_captain('red')
+        blue_claimed_ids = gm.get_claimed('blue')
+        blue_captain = gm.get_captain('blue')
+    
+    with StateModel() as sm:
+        red_claimed = [
+            sm.get_state(id).name for id in red_claimed_ids
+        ]
+        blue_claimed = [
+            sm.get_state(id).name for id in blue_claimed_ids
+        ]
+    
+    blue_status = f"## Blue team ({blue_captain}) currently has {len(blue_claimed)} claimed states:\n- {'\n- '.join(blue_claimed)}"
+    red_status = f"## Red team ({red_captain}) currently has {len(red_claimed)} claimed states:\n- {'\n- '.join(red_claimed)}"
+    
+    await interaction.response.send_message(f"{red_status}\n{blue_status}")
 
 class GameController:
     def __init__(self):
