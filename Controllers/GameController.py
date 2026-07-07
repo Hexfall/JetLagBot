@@ -19,17 +19,57 @@ async def discard(interaction: Interaction):
 
 @app_commands.command(name="show_tableau", description="Print the public tableau.")
 async def show_tableau(interaction: Interaction):
-    with GameModel as gm:
-        with StateModel as sm:
+    with GameModel() as gm:
+        with StateModel() as sm:
             states = [
                 sm.get_state(id).name for id in gm.get_tableau()
             ]
-    await interaction.response.send_message("- ".join(["# Tableau"] + states))
+    await interaction.response.send_message("\n- ".join(["# Tableau"] + states))
+
+@app_commands.command(name="get_private_hand", description="Privately print your private hand.")
+async def get_private_hand(interaction: Interaction):
+    with GameModel() as gm:
+        team = gm.get_team_by_captain(interaction.user.mention)
+        ids = gm.get_private_hand(team)
+    with StateModel() as sm:
+        states = [
+            sm.get_state(id).name for id in ids
+        ]
+    await interaction.response.send_message("\n- ".join([f'# {team.capitalize()} Team Private Hand'] + states), ephemeral=True)
+    
+@app_commands.command(name="get_options", description="Prints tableau and private hand options.")
+async def get_options(interaction: Interaction):
+    with GameModel() as gm:
+        team = gm.get_team_by_captain(interaction.user.mention)
+        tableau_ids = gm.get_tableau()
+        private_hand_ids = gm.get_private_hand(team)
+    with StateModel() as sm:
+        tableau = [
+            sm.get_state(id).name for id in tableau_ids
+        ]
+        private_hand = [
+            sm.get_state(id).name for id in private_hand_ids
+        ]
+    
+    await interaction.response.send_message(
+        f"{'\n- '.join(['# Tableau'] + tableau)}\n{'\n- '.join([f'# {team.capitalize()} Team Private Hand'] + private_hand)}",
+        ephemeral=True,
+    )
+
+@app_commands.command(name="get_status", description="Get's the current board state.")
+async def get_status(interaction: Interaction):
+    pass
 
 class GameController:
     def __init__(self):
         self.commands = [
             start_game,
+            claim,
+            discard,
+            show_tableau,
+            get_private_hand,
+            get_options,
+            get_status,
         ]
     
     def register_commands(self, tree: app_commands.CommandTree):

@@ -55,3 +55,6 @@ class GameModel:
     
     def get_tableau(self) -> list[int]:
         return self.game.get_tableau()
+
+    def get_private_hand(self, team: Optional[str]):
+        return self.game.get_private_cards(team)

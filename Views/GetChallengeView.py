@@ -34,5 +34,5 @@ class GetChallengeView(View):
     async def __callback(self, interaction: Interaction):
         state_id = int(self.state_select.get_option())
         state = StateModel().get_state(state_id)
-        await interaction.response.send_message(f"# {state.name} Challenge:\n{state.challenge.markup_format()}", ephemeral=True)
+        await interaction.response.send_message(f"# {state.name} Challenge\n{state.challenge.markup_format()}", ephemeral=True)
         
