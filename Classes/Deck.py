@@ -62,7 +62,7 @@ class Deck:
         if card in self.tableau:
             self.tableau.remove(card)
         elif card in self.hands[team]:
-            self.hands[team].remove(card)
+            pass
         else:
             raise ValueError(f"Card {card} is not in the deck or {team}'s hand.")
 
