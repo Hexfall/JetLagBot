@@ -3,6 +3,8 @@ from discord import app_commands, Interaction
 from CreateStates import states
 from Models.GameModel import GameModel
 from Models.StateModel import StateModel
+from Views.ClaimStateView import ClaimStateView
+from Views.DiscardStateView import DiscardStateView
 from Views.StartGameView import StartGameView
 
 @app_commands.command(name="start_game", description="Start a new game.")
@@ -11,11 +13,11 @@ async def start_game(interaction: Interaction):
 
 @app_commands.command(name="claim", description="Claim a state for your team.")
 async def claim(interaction: Interaction):
-    pass
+    await interaction.response.send_message(view=ClaimStateView(interaction.user), ephemeral=True)
 
 @app_commands.command(name="discard", description="Discard a state from the tableau.")
 async def discard(interaction: Interaction):
-    pass
+    await interaction.response.send_message(view=DiscardStateView(), ephemeral=True)
 
 @app_commands.command(name="show_tableau", description="Print the public tableau.")
 async def show_tableau(interaction: Interaction):

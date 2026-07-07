@@ -21,11 +21,13 @@ class Deck:
         self.tableau: list[int] = tableau
         
         if hands is None:
-            hands = {
+            self.hands = {
                 'red': [],
                 'blue': [],
             }
-        self.hands: dict[str, list[int]] = hands
+            self.fill_hands()
+        else:
+            self.hands: dict[str, list[int]] = hands
         
         if claimed is None:
             claimed = {
@@ -34,7 +36,6 @@ class Deck:
             }
         self.claimed: dict[str, list[int]] = claimed
         
-        self.fill_hands()
         self.refill_tableau()
     
     def refill_tableau(self) -> Optional[int]:
@@ -59,7 +60,7 @@ class Deck:
     
     def claim(self, card: int, team: str) -> Optional[int]:
         if card in self.tableau:
-            self.deck.remove(card)
+            self.tableau.remove(card)
         elif card in self.hands[team]:
             self.hands[team].remove(card)
         else:

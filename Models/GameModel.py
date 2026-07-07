@@ -64,3 +64,11 @@ class GameModel:
     
     def get_captain(self, team: str) -> str:
         return self.game.captains[team]
+    
+    def claim(self, team: str, card: int) -> Optional[int]:
+        self.changes = True
+        return self.game.deck.claim(card, team)
+    
+    def discard(self, card: int) -> int:
+        self.changes = True
+        return self.game.deck.discard(card)
