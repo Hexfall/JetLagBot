@@ -29,8 +29,8 @@
     },
     "3": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Kommikeren Anders \"Anden\" Matthesen voksede op i Albertslund. I hans \u00e5nd, find en and og fort\u00e6l den en joke.",
+            "title": "F\u00e5 en and til at grine"
         },
         "id": 3,
         "name": "Albertslund",
@@ -45,8 +45,8 @@
     },
     "4": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Ballerup kommune har v\u00e6ret socialdemokratisk ledet siden 1933. Vis din st\u00f8tte til partiet ved at finde 24 forskellige r\u00f8de roser, en rose per kommunalvalg.\nAfbildninger af roser t\u00e6ller, men en bukket af roser t\u00e6ller kun for \u00e9n enkelt.",
+            "title": "St\u00f8t Socialdemokratiet"
         },
         "id": 4,
         "name": "Ballerup",
@@ -60,8 +60,8 @@
     },
     "5": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Jeg h\u00f8rer at Br\u00f8ndby ikke er k\u00e6mpe fan af deres rivaler FCK.\nTag et billede af grafiti, klisterm\u00e6rker eller tags med budskaber i retning af \"Fuck FCK\", \"Hader FCK\" p\u00e5 6 af disse 8 steder:\n- Lygtep\u00e6le\n- Elskabe/teknikskabe\n- Skilte (fx vejskilte eller informationsskilte)\n- Busstoppesteder\n- Broer/tunneller.\n- Mure og plankev\u00e6rker.\n- Affaldsspande\n- D\u00f8ren til eller inde p\u00e5 et offentligt toilet.",
+            "title": "Hader FCK"
         },
         "id": 5,
         "name": "Br\u00f8ndby",
@@ -75,8 +75,8 @@
     },
     "6": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Drag\u00f8r kommune har en masse flotte stille villakvarterer med den lille bagatel at kommunen ligger lige op ad Kastrup lufthavn, hvilket giver noget st\u00f8j.\nSt\u00f8t de lokale beboere ved at vise jeres had til lufthavnen! \nEt gruppemedlem skal st\u00e5 mindst 3 meter fra en offentlig skraldespand og kaste et papirfly ned i skraldespanden.\nHvis I misser, s\u00e5 m\u00e5 I vente 30 sekunder hvor I kan skamme jer over at metalfuglene f\u00e5r lov til at blive ved med at st\u00f8je",
+            "title": "Vis jeres had til Kastrup lufthavn"
         },
         "id": 6,
         "name": "Drag\u00f8r",
@@ -86,8 +86,8 @@
     },
     "7": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Gentofte er den dyreste kommune at k\u00f8be villa per kvadratmeter i. \nFind to huse til salg, og g\u00e6t hvilket hus er dyrest. Hvis i g\u00e6tter forkert, s\u00e5 er udfordringen automatisk vetoed.",
+            "title": "Estimer Boligpriser"
         },
         "id": 7,
         "name": "Gentofte",
@@ -99,8 +99,8 @@
     },
     "8": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Find sakse til salg i Gladsaxe og spil et spil sten, saks, papir (ikke sten, papir, saks \ud83d\ude20). \nI skal beslutte jer hvem kommer til at vinde inden i g\u00e5r i gang, og skal spille indtil den person vinder, med 5 minutter mellem runder.\nDet er, selvf\u00f8lgelig, forbudt at snakke omkring spillet inden spillet, eller mellem runder.",
+            "title": "Sten, Gladsaxe, Papir"
         },
         "id": 8,
         "name": "Gladsaxe",
@@ -114,8 +114,8 @@
     },
     "9": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Glostrup er kendt for deres gamle vandt\u00e5rn fra 1897. T\u00e5rnet er 33.5 meter h\u00f8jt... men er det ikke lidt lavt? Det kan i vel g\u00f8re bedre.\nL\u00f8ft vand en samlet h\u00f8jde af 33.5 meter eller h\u00f8jere. Vandet beh\u00f8ver ikke blive l\u00f8ftet hele distancen p\u00e5 en gang, men hver l\u00f8ft skal v\u00e6re minimum 3 meter.",
+            "title": "T\u00e5rn jer over det gamle vandt\u00e5rn"
         },
         "id": 9,
         "name": "Glostrup",
@@ -129,8 +129,8 @@
     },
     "10": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Herlev savner at folk ikke leger meget l\u00e6ngere. Opmundre Herlev ved at:\n- Spil g\u00e6t og grimasser 3 gange hver med valgfrie filmtitler. (No colluding!)\n- Spil \"\"Catch\"\" med en valgfri genstand over 10 meters distance med 5 gennemf\u00f8rte grib i streg.\n- Lav, op hop en hinkesti p\u00e5 minimum 10 hink. (En hvid-ish sten kan som reglt bruges some make-shift kridt)",
+            "title": "Ha' det herligt i Herlev"
         },
         "id": 10,
         "name": "Herlev",
@@ -145,8 +145,8 @@
     },
     "11": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Hvid er s\u00e5 ovre. Men m\u00e5ske er det ikke i Hvidovre.\nG\u00e5 500m v\u00e6k fra nogen togstationer, for at finde de lokale. \nLokaliser 3 personer som kun g\u00e5r helt i hvidt t\u00f8j eller alt p\u00e5n\u00e6r en artikkel af t\u00f8j er hvidt. \nVis Danmark at hvid stadig er 'en vogue'",
+            "title": "Er hvid ovre i Hvidovre?"
         },
         "id": 11,
         "name": "Hvidovre",
@@ -159,8 +159,8 @@
     },
     "12": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "H\u00f8je Taastrup kommune er hjem til en af Danmarks mest bekendte br\u00e6tspil spillere: Simon Breum.\nMen fleste br\u00e6tspil tager jo alt for lang tid og er alt for kedelige! Kan vi ikke bare spille noget simpelt istedetfor?\n\nLav et spil Ludo ud af sten, planter, affald, et spil Ludo, eller andre ting som i kan finde.\nHerefter, spil en omgang Ludo imod hinanden, hvor hver spiller har kun en enkelt brik som de skal f\u00e5 i m\u00e5l.\n\nSpillet m\u00e5 ikke laves af ting som i bringer med ind i kommunen, dog i m\u00e5 genre bruge jeres egne terninge til at rulle med.\n\"\"Slutbanerne\"\" skal v\u00e6re anderledes og genkendelige fra \"\"rundbanen,\"\" og spillebrikkerne skal v\u00e6re genkendelige fra hinanden og selve spillet. I er ikke n\u00f8dt til at lave startfelt eller hjemmezone.\nEn brik er i m\u00e5l n\u00e5r den lander p\u00e5 det inderste felt i dens slutbane. Hvis i roller over, s\u00e5 \"\"hopper den tilbage.\"\"\nUdfordringen er f\u00e6rdig n\u00e5r den f\u00f8rste person f\u00e5r deres brik i m\u00e5l. Taberen m\u00e5 oplyse det andet hold med at sige til hvor d\u00e5rlige de er til br\u00e6tspil.",
+            "title": "Ludo Vaner til Ludomaner"
         },
         "id": 12,
         "name": "H\u00f8je-Taastrup",
@@ -175,8 +175,8 @@
     },
     "13": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Ish\u00f8j kommune har en den korteste forventede middel levealdre i Danmark af de kommuner vi har i spil. \nIt truly is no ~~country~~ kommune for old men. Channel your inner cowboy and duel to the death.\nI skal finde 2 genstande i kommunen i vil kaste og i skal finde en gr\u00e6spl\u00e6ne hvor i kan st\u00e5 ryg til ryg. \nI skal derefter g\u00e5 5 lange skridt frem, vende jer om og med det samme kaste genstanden p\u00e5 jeres fjende.\nSom i et rigtig duel skal i samtidig sige, 1... 2... 3... 4... 5... skyd!\nHvis i begge d\u00f8r (rammer hinaden), s\u00e5 har i hjulpet Ish\u00f8j med at holde middellevealderen nede og i har vundet kommunens k\u00e6rlighed.\nHvis i ikke begge bliver ramt eller i ikke skyder (stort set) samtidig, s\u00e5 skal i vente 5 minnuter f\u00f8r i kan duallere igen.",
+            "title": "No Kommune for Old Men"
         },
         "id": 13,
         "name": "Ish\u00f8j",
@@ -188,8 +188,8 @@
     },
     "14": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "DTU har mange kendte alumnier, deriblandt Henrik Dam som opdagede K-vitamin i 1943. \nSt\u00f8t op om hans opdagelse ved at finde 11 af de her 16 forskellige kilder til K-vitamin:\n- Gr\u00f8nk\u00e5l\n- Spinat\n- Majroe\n- Broccoli\n- Kiwi\n- Bl\u00e5b\u00e6r\n- Hasseln\u00f8d\n- Vindrue\n- Tomat\n- Olivenolie\n- Zucchini\n- Mango\n- P\u00e6re\n- Kartoffel\n- S\u00f8d kartoffel\n- Br\u00f8d",
+            "title": "__K__an I __K__ortl\u00e6gge __K__-vitamins __K__ilder?"
         },
         "id": 14,
         "name": "Lyngby-Taarb\u00e6k",
@@ -202,8 +202,8 @@
     },
     "15": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "R\u00f8dovre har Danmarks f\u00f8rste rigtige indend\u00f8rs shoppingcenter i \"\"R\u00f8dovre Centrum\"\" som \u00e5bnede i 1966.\nSiden da har de sm\u00e5 butikker selvf\u00f8lgelig haft det sv\u00e6rt. S\u00e5 det ville v\u00e6re rart hvis i kunne tjekke op p\u00e5 om der stadig er gang i dem!\nObserver 20 mennesker g\u00e5 ind i en \"\"uafh\u00e6ngig butik\"\" (Ikke k\u00e6de-butik). I m\u00e5 ikke t\u00e6lle jer selv som at g\u00e5 ind i buttiken.",
+            "title": "Tjek op p\u00e5 lokal buttikkerne"
         },
         "id": 15,
         "name": "R\u00f8dovre",
@@ -217,8 +217,8 @@
     },
     "16": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "T\u00e5rnby er selvbevidst omkring de ikke har mange t\u00e5rne. Byg et stent\u00e5rn som g\u00e5r over begge holdkameraters kn\u00e6.\nT\u00e5rnby har ikke pengene til at give dig ordentlige materialler, s\u00e5 i skal selv finde alle sten i kommunen og i m\u00e5 ikke bruge sten som er \u00e5bentlyst menneskeskabte \"\"fx Mursten",
+            "title": "Hj\u00e6lp T\u00e5rnby med at leve op til navnet"
         },
         "id": 16,
         "name": "T\u00e5rnby",
@@ -230,8 +230,8 @@
     },
     "17": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Vallensb\u00e6k kommune er Danmarks n\u00e6st-mindste og den er utrolig smal. Det ikke nogen stor sag et g\u00e5 fra ende til ende. Men det beh\u00f8ver i ikke fort\u00e6lle vallensb\u00e6k.\nG\u00e5 \u00f8st til vest fra gr\u00e6nsen til br\u00f8ndby kommune, til gr\u00e6nsen af ish\u00f8j/h\u00f8je-taastrup kommune. Eller omvendt vest til \u00f8st.\nI har ikke travlt, s\u00e5 i m\u00e5 ikke l\u00f8be eller tage nogen form for offentlig transport. \nN\u00e5r i er g\u00e5et ende til ende skal i fort\u00e6lle vallensb\u00e6k kommune \"\"Woow du er *s\u00e5* stor",
+            "title": "Short-king Vallensb\u00e6k"
         },
         "id": 17,
         "name": "Vallensb\u00e6k",
@@ -244,8 +244,8 @@
     },
     "18": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Hanna Haler\u00f8d er trolden som kan findes i Aller\u00f8ds skove. Men at beskytte Aller\u00f8ds skove er sultent arbejde og Hanna er Huuungy!\nTrolde spiser sten og mineraler (og baby geder??), s\u00e5 find minimum 30 sten som er st\u00f8rre end 3cm, og placer dem i et hjerte form i en af Aller\u00f8ds kommunes skove. \nSkriv derefter \"\"Hanna\"\" med vilk\u00e5rlige sten i midten er hjertet s\u00e5 Hanna ved det er til hende.",
+            "title": "Hanna er Sulten"
         },
         "id": 18,
         "name": "Aller\u00f8d",
@@ -260,8 +260,8 @@
     },
     "19": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Egedal kommune har haft mange problemer med deres navn. Egedal hed \"\"Kongsdal\"\" indtil trussel om sagsanl\u00e6g. Navnet \"\"Egedal\"\" blev derefter valgt p\u00e5 trods af endnu en trussel om sagsanl\u00e6g. \nFind to personer med det samme navn (fornavn eller efternavn). V\u00e6lg hvem der repr\u00e6senterer kommunen og hvem der repr\u00e6senterer privatpersonerne og derefter sl\u00e5 plat og krone to gange i tr\u00e6k, om hvem der m\u00e5 beholde deres navn. F\u00f8rst skal privatpersonen vinde og derefter skal kommunen vinde. ",
+            "title": "Start en ny navnestrid"
         },
         "id": 19,
         "name": "Egedal",
@@ -276,8 +276,8 @@
     },
     "20": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Find et sted enten p\u00e5 stranden eller i en skov, hvor man i 60 sekunder ikke kan h\u00f8re et bil eller menneske, men bare naturens lyde...\nEfter 60 sekunder stilhed skal i begge r\u00e5be det f\u00f8rste chat-GPT foresl\u00e5r i skal r\u00e5be n\u00e5r du giver den denne promt:\n\"\"giv mig en meget uh\u00f8felig ting at r\u00e5be p\u00e5 en meget stille strand\"\"/\"\"giv mig en meget uh\u00f8felig ting at r\u00e5be i en meget stille skov",
+            "title": "\u00d8del\u00e6g freden i Fredensborg"
         },
         "id": 20,
         "name": "Fredensborg",
@@ -291,8 +291,8 @@
     },
     "21": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Frederikssund kommune er verdenskendt for sit fantastiske \u00e5rlige vikingespil og vikingske efterladenskaber, der tiltr\u00e6kker folk fra alle verdenshj\u00f8rner.\nFor at bringe vikingetiden tilbage, skal den ene i gruppen nu med sin krop v\u00e6lge et 4-bogstavs dansk ord og stave det i det yngre futhark-alfabet og bagefter vise 4 billeder af hvert tegn til den anden!\nHvis de ikke g\u00e6tter ordet, m\u00e5 I skamme jer i 5 minutter over at jeres vikingeblod svigtede jer f\u00f8r I pr\u00f8ver igen med et nyt ord.",
+            "title": "Afkod vikingrunerne"
         },
         "id": 21,
         "name": "Frederikssund",
@@ -307,8 +307,8 @@
     },
     "22": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Fures\u00f8 har haft det for godt for l\u00e6nge! Tag til Fures\u00f8 eller en af Fures\u00f8s venner,\nS\u00f8nderss\u00f8 og Farum s\u00f8, og sl\u00e5 s\u00f8en fysisk med din knytn\u00e6ve. That'll show em'",
+            "title": "G\u00f8r Fures\u00f8 til \"Sure-s\u00f8\""
         },
         "id": 22,
         "name": "Fures\u00f8",
@@ -324,8 +324,8 @@
     },
     "23": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Det bedste tidspunkt at plante et tr\u00e6 var 30 \u00e5r siden, det n\u00e6stbedste tidspunkt er lige nu. Alts\u00e5 *nu* nu.\nFind og grav et \"\"tr\u00e6-fr\u00f8\"\" 10cm ned i jorden (agern, kogle eller lign.) og d\u00e6k det med jord igen.\nI m\u00e5 kun bruge jeres h\u00e6nder eller grene/pinde/sten i finder p\u00e5 jorden som skovle.",
+            "title": "Plant et tr\u00e6, hvis skygge i aldrig vil sidde i."
         },
         "id": 23,
         "name": "Gribskov",
@@ -338,8 +338,8 @@
     },
     "24": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "*Halsn\u00e6s Kommune* \u00e6ndrede deres navn i 2008, v\u00e6k fra *Frederiksv\u00e6rk-Hundested* Kommune.\nDer er dog stadig mennesker som n\u00e6gter at give slip p\u00e5 det gamle navn og respektere Halsn\u00e6s' nye identitet [mangler kilde].\nFind en offentlig bygning og lav en video p\u00e5 minimum 1 minut hvor du beskytter Halsn\u00e6s' nye navn, og forklarer hvorfor det burde respekteres.\nSend derefter denne video til det andet hold og sk\u00e6ld dem ud for deres gammeldags mentalitet.",
+            "title": "Identitetspolitik"
         },
         "id": 24,
         "name": "Halsn\u00e6s",
@@ -351,8 +351,8 @@
     },
     "25": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Find et sted hvor i kan se over til Sverige(Yuck), og v\u00e6lg et betemt punkt p\u00e5 den Svenske kyst.\nHvert skib som sejler mellem jer og det valgte punkt skal nu betale en told!\nprivatskibe betaler 5 kroner, kommercielskibe betaler 10 kroner.\nN\u00e5r nok skibe er sejlet gennem sundet til at statskassen er blevet 200 kr. rigere, s\u00e5 kan i holde fyraften!",
+            "title": "Genindf\u00f8r \u00d8resundstolden"
         },
         "id": 25,
         "name": "Helsing\u00f8r",
@@ -363,8 +363,8 @@
     },
     "26": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Det nye flotte supersygehus i Hiller\u00f8d er uheldigvis blevet ramt af forsinkelser og g\u00e5et over budget, s\u00e5 nu skal I vise Hiller\u00f8d hvordan man bygger et sygehus.\nI skal f\u00f8rst finde et fladt stykke jord at bygge p\u00e5, hvorefter I f\u00e5r 10 minutter til at samle naturmaterialer (pinde, kogler, sten osv.) og bygge et sygehus med dem.\nDerefter skal I tage et billede ovenfra af jeres byggeri som I kan v\u00e6re stolte af. Byggeriet skal mindst have:\n- Et tydeligt H (som selvf\u00f8lgelig st\u00e5r for Hiller\u00f8d)\n- 3 separate aflukkede rum, hvoraf 1 har en \u00e5bning i sig (til ambulancerne)\n- En helipad, dvs. en cirkel/cirkul\u00e6rt objekt\nHvis I ikke n\u00e5r det inden for tiden, m\u00e5 I g\u00e5 mindst 100 meter v\u00e6k og starte forfra efter 10 minutters t\u00e6nkepause til at overveje hvordan I forklarer denne forsinkelse til kommunen\n",
+            "title": "Hj\u00e6lp Region H med nyt supersygehus"
         },
         "id": 26,
         "name": "Hiller\u00f8d",
@@ -378,8 +378,8 @@
     },
     "27": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "En holm er en lille ubeboet \u00f8, og H\u00f8rsholm har brug for en ny.\nFind en vandmasse (s\u00f8, \u00e5, vandpyt) og skab en ny holm med minimum en plante. Fort\u00e6l s\u00e5 hinanden om den nye holm.",
+            "title": "H\u00f8r om en ny holm i H\u00f8rsholm"
         },
         "id": 27,
         "name": "H\u00f8rsholm",
@@ -405,8 +405,8 @@
     },
     "29": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Greve blev lovet til dine forf\u00e6dre for 4000 \u00e5r siden, det er tid til at genvinde det!\nLav en krone af gr\u00e6s, h\u00f8 og minimum 3 forskellige blomster og overgiv den til en holdkamerat for at Erkl\u00e6re dem som den retsm\u00e6ssige greve af Greve.\nHvis den retsm\u00e6ssige greve kan g\u00e5 med kronen i 3 minutter uden den falder af hovedet eller fra hinaden, s\u00e5 har i vundet greve tilbage!\nKronen skal v\u00e6re minimum 10 centimeter i diameter, og m\u00e5 ikke bindes fast p\u00e5 nogen m\u00e5de til h\u00e5ret/hovedet. Den skal bare kunne sidde p\u00e5 hovedet.",
+            "title": "Erkl\u00e6r jeg som den retm\u00e6ssige greve."
         },
         "id": 29,
         "name": "Greve",
@@ -419,8 +419,8 @@
     },
     "30": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Solr\u00f8d er et anagram for \"\"ordl\u00f8s\"\", hvilket giver meget bedre mening da solen faktisk ikke er r\u00f8d!\nS\u00e5 ehrm hj\u00e6lp Solr\u00f8d med at finde et ord.\nI skal finde et tilf\u00e6digt 10 bogstaver langt ord ved at google \"\"giv mig et tilf\u00e6ldigt 10 bogstaver langt ord\"\".\nI skal derefter finde bogstaverne til jeres ord rundt i byen p\u00e5 skilte bygninger eller ligende. Det skal alts\u00e5 v\u00e6re perminent skrift, ikke en avis i fandt p\u00e5 jorden.\nI m\u00e5 kun bruge et bogstav pr bygning/skilt/lignende. N\u00e5r i kan danne ordet med bogstaver i har fudnet har i gjort solr\u00f8d til ordrig :)",
+            "title": "Hemmeligheden bag solr\u00f8ds navn."
         },
         "id": 30,
         "name": "Solr\u00f8d",
@@ -432,8 +432,8 @@
     },
     "31": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "K\u00f8ge er bl.a. kendt for sine h\u00e6derlige politikere og deres meget lovlydige venner, bl.a. Suzuki-Torben. \nFor at vise K\u00f8ge-egnets k\u00e6rlighed til Suzuki-biler skal I derfor nu tage 3 billeder med et gruppemedlems overraskede ansigt ved siden af en Suzuki-biler (ikke fra bilforhandler, dvs. med reelle nummerplader) i det offentlige rum, for at vise hvor imponerede I er over de flotte biler.",
+            "title": "Hyldest til Suzuki-Torben"
         },
         "id": 31,
         "name": "K\u00f8ge",
@@ -445,8 +445,8 @@
     },
     "32": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Roskilde l\u00e6gger plads til Danmarks st\u00f8rste live-musik festival, og Eminems optr\u00e6den p\u00e5 Orange Scene i 2018 var festivalens st\u00f8rste med mere end 100.000 i publikum. I skal nu overg\u00e5 hans koncert.\nV\u00e6lg tilf\u00e6ldigt en af Eminems mest lyttede-til sange p\u00e5 Spotify. L\u00e6r og udf\u00f8r et tilf\u00e6ldigt vers plus omkv\u00e6det.",
+            "title": "Become *the* Rap God"
         },
         "id": 32,
         "name": "Roskilde",
@@ -462,8 +462,8 @@
     },
     "33": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "\u00c9n fugl i h\u00e5nden er bedre end ti p\u00e5 taget. Men vi tager hvad vi kan f\u00e5.\nEnten r\u00f8r en fugl eller fotografer 10 fugle p\u00e5 tag.",
+            "title": "Vi kigger p\u00e5 fugle \ud83c\udfb5"
         },
         "id": 33,
         "name": "Lejre",
