@@ -3,6 +3,7 @@ from discord.ui import View, UserSelect, Button
 
 from Constants import IGNORE_RESPONSE
 from Models.GameModel import GameModel
+from Models.StateModel import StateModel
 
 
 class StartGameView(View):
@@ -29,7 +30,13 @@ class StartGameView(View):
                 self.get_red_captain().mention,
                 self.get_blue_captain().mention,
             )
-        await interaction.response.send_message("New game started!")
+        await interaction.response.send_message(f"New game started with red team captain {self.get_red_captain().mention} and blue team captain {self.get_blue_captain().mention}")
+        with GameModel() as gm:
+            with StateModel() as sm:
+                states = [
+                    sm.get_state(id).name for id in gm.get_tableau()
+                ]
+        await interaction.followup.send("\n- ".join(["# Tableau"] + states))
     
     def get_red_captain(self) -> User:
         return self.red_captain.values[0]
