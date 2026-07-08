@@ -27,11 +27,14 @@ class DiscardStateView(View):
         state_id = int(self.state_select.get_option())
         with GameModel() as gm:
             new_state_id = gm.discard(state_id)
+            tableau_ids = gm.get_tableau()
         with StateModel() as sm:
             discarded_state = sm.get_state(state_id)
             new_state = sm.get_state(new_state_id)
+            tableau = sm.get_states_in_markup(tableau_ids)
         
         discarded_text = f"{discarded_state} has been discarded from the tableau."
         new_state_text = f"The tableau has been refilled with {new_state.name}."
+        tableau_text = f"# Tableau\n{tableau}"
         
-        await interaction.response.send_message(f"{discarded_text} {new_state_text}")
+        await interaction.response.send_message(f"{discarded_text} {new_state_text}\n\n{tableau_text}")
