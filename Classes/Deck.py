@@ -39,7 +39,7 @@ class Deck:
         self.refill_tableau()
     
     def refill_tableau(self) -> Optional[int]:
-        refilled: bool = len(self.tableau) < TABLEAU_SIZE
+        refilled: bool = len(self.tableau) < TABLEAU_SIZE and len(self.deck) > 0
         while len(self.tableau) < TABLEAU_SIZE and len(self.deck) > 0:
             self.tableau.append(self.draw())
         
