@@ -2,9 +2,8 @@ import json
 from random import choice
 from typing import Optional
 
+from Constants import PRIVATE_HAND_SIZE, TABLEAU_SIZE
 
-TABLEAU_SIZE = 6
-HAND_SIZE = 3
 
 class Deck:
     def __init__(
@@ -39,7 +38,7 @@ class Deck:
         self.refill_tableau()
     
     def refill_tableau(self) -> Optional[int]:
-        refilled: bool = len(self.tableau) < TABLEAU_SIZE
+        refilled: bool = len(self.tableau) < TABLEAU_SIZE and len(self.deck) > 0
         while len(self.tableau) < TABLEAU_SIZE and len(self.deck) > 0:
             self.tableau.append(self.draw())
         
@@ -49,7 +48,7 @@ class Deck:
     
     def fill_hands(self):
         for hand in self.hands.values():
-            while len(hand) < HAND_SIZE and len(self.deck) > 0:
+            while len(hand) < PRIVATE_HAND_SIZE and len(self.deck) > 0:
                 hand.append(self.draw())
 
     # Remove and return a random card from the deck

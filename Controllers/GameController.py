@@ -1,6 +1,10 @@
-from discord import app_commands, Interaction
+from asyncio import sleep
+from typing import Union
 
-from CreateStates import states
+from discord import app_commands, Interaction, User, Thread
+from discord.abc import GuildChannel
+
+from Constants import HOURS_PER_PRIVATE_CARD, PRIVATE_HAND_SIZE
 from Models.GameModel import GameModel
 from Models.StateModel import StateModel
 from Views.ClaimStateView import ClaimStateView
@@ -9,7 +13,16 @@ from Views.StartGameView import StartGameView
 
 @app_commands.command(name="start_game", description="Start a new game.")
 async def start_game(interaction: Interaction):
-    await interaction.response.send_message(view=StartGameView(), ephemeral=True)
+    view = StartGameView()
+    view.callback = private_card_notifications
+    await interaction.response.send_message(view=view, ephemeral=True)
+    
+
+async def private_card_notifications(users: list[User], channel: Union[GuildChannel, Thread]):
+    await channel.send(f"New private cards are available!\n{users[0].mention} and {users[1].mention}")
+    for _ in range(PRIVATE_HAND_SIZE - 1):
+        await sleep(HOURS_PER_PRIVATE_CARD * 60*60)
+        await channel.send(f"New private cards are available!\n{users[0].mention} and {users[1].mention}")
 
 @app_commands.command(name="claim", description="Claim a state for your team.")
 async def claim(interaction: Interaction):

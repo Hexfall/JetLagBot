@@ -1,4 +1,7 @@
-from discord import ButtonStyle, User
+from typing import Union
+
+from discord import ButtonStyle, User, Thread
+from discord.abc import GuildChannel
 from discord.ui import View, UserSelect, Button
 
 from Constants import IGNORE_RESPONSE
@@ -37,9 +40,13 @@ class StartGameView(View):
                     sm.get_state(id).name for id in gm.get_tableau()
                 ]
         await interaction.followup.send("\n- ".join(["# Tableau"] + states))
+        await self.callback([self.get_red_captain(), self.get_blue_captain()], interaction.channel)
     
     def get_red_captain(self) -> User:
         return self.red_captain.values[0]
     
     def get_blue_captain(self) -> User:
         return self.blue_captain.values[0]
+    
+    async def callback(self, captains: list[User], channel: Union[GuildChannel, Thread]):
+        pass

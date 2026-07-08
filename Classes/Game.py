@@ -1,13 +1,10 @@
 from datetime import datetime
-from typing import Union, Optional
+from typing import Optional
 from json import dumps, loads
 
-from discord import Thread
-from discord.abc import GuildChannel
-
 from Classes.Deck import Deck
+from Constants import HOURS_PER_PRIVATE_CARD
 
-HOURS_PER_PRIVATE_CARD = 3
 
 class Game:
     def __init__(self, start_time: datetime = None, channel_id: int = None, deck: Deck = None, captains: dict[str, str] = None):
