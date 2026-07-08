@@ -16,6 +16,15 @@ class StateModel:
     
     def get_state(self, state_id: int) -> State:
         return self.states[state_id]
+    
+    def get_states(self, state_ids: list[int]) -> list[State]:
+        return [self.get_state(id) for id in state_ids]
+    
+    def get_state_name(self, state_id: int) -> str:
+        return str(self.get_state(state_id))
+    
+    def get_state_names(self, state_ids: list[int]) -> list[str]:
+        return [self.get_state_name(id) for id in state_ids]
             
     def __enter__(self):
         return self
@@ -25,4 +34,7 @@ class StateModel:
     
     def get_state_ids(self) -> list[int]:
         return list(self.states.keys())
+    
+    def get_states_in_markup(self, state_ids: list[int]) -> str:
+        return "- " + "\n- ".join(self.get_state_names(state_ids))
         
