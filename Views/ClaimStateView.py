@@ -30,12 +30,14 @@ class ClaimStateView(View):
         state_id = int(self.state_select.get_option())
         with GameModel() as gm:
             new_state_id = gm.claim(self.team, state_id)
+            tableau_ids = gm.get_tableau()
         with StateModel() as sm:
             claimed_state = sm.get_state(state_id)
             if new_state_id is None:
                 new_state = None
             else:
                 new_state = sm.get_state(new_state_id)
+            tableau = sm.get_states_in_markup(tableau_ids)
         
         if new_state is None:
             new_state_text = "The claimed state was a private state, so no new state has been added to the tableau."
@@ -43,6 +45,6 @@ class ClaimStateView(View):
             new_state_text = f"The tableau has been refilled with {new_state.name}."
 
         await interaction.response.send_message(
-            f"{self.team.capitalize()} team has claimed {claimed_state}. {new_state_text}"
+            f"{self.team.capitalize()} team has claimed {claimed_state}. {new_state_text}\n\n# Tableau\n{tableau}"
         )
         await interaction.followup.send(f"Pick a state to discard (remember to check for veto)", view=DiscardStateView(), ephemeral=True)
