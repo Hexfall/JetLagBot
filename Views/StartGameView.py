@@ -40,7 +40,13 @@ class StartGameView(View):
                     sm.get_state(id).name for id in gm.get_tableau()
                 ]
         await interaction.followup.send("\n- ".join(["# Tableau"] + states))
-        await self.callback([self.get_red_captain(), self.get_blue_captain()], interaction.channel)
+        await self.callback(
+            {
+                'red': self.get_red_captain(),
+                'blue': self.get_blue_captain(),
+            },
+            interaction.channel
+        )
     
     def get_red_captain(self) -> User:
         return self.red_captain.values[0]
@@ -48,5 +54,5 @@ class StartGameView(View):
     def get_blue_captain(self) -> User:
         return self.blue_captain.values[0]
     
-    async def callback(self, captains: list[User], channel: Union[GuildChannel, Thread]):
+    async def callback(self, users: dict[str, User], channel: Union[GuildChannel, Thread]):
         pass

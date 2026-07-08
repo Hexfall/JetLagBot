@@ -18,11 +18,16 @@ async def start_game(interaction: Interaction):
     await interaction.response.send_message(view=view, ephemeral=True)
     
 
-async def private_card_notifications(users: list[User], channel: Union[GuildChannel, Thread]):
-    await channel.send(f"New private cards are available!\n{users[0].mention} and {users[1].mention}")
-    for _ in range(PRIVATE_HAND_SIZE - 1):
-        await sleep(HOURS_PER_PRIVATE_CARD * 60*60)
-        await channel.send(f"New private cards are available!\n{users[0].mention} and {users[1].mention}")
+async def private_card_notifications(users: dict[str, User], channel: Union[GuildChannel, Thread]):
+    for _ in range(PRIVATE_HAND_SIZE):
+        for team, user in users.items():
+            with GameModel() as gm:
+                card_id = gm.get_private_hand(team)[-1]
+            with StateModel() as sm:
+                card = sm.get_state_name(card_id)
+            await user.send(f"# {card}\nis your teams new private card.")
+        await channel.send(f"New private cards are available! Check your DMs or use `/get_private_hand` to see them.")
+        await sleep(HOURS_PER_PRIVATE_CARD * 60 * 60)
 
 @app_commands.command(name="claim", description="Claim a state for your team.")
 async def claim(interaction: Interaction):
