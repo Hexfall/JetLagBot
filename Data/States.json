@@ -1,7 +1,7 @@
 {
     "1": {
         "challenge": {
-            "description": "K\u00f8benhavn kom f\u00f8rst til prominens som en k\u00f8bstad, grundet dens strategiske lokation og naturlige havne. Byen er derfor fyldt med havne og brygger.\nBes\u00f8g mindst X af f\u00f8lgende omr\u00e5der, og tag billed af jer ved siden af havet:\n- Nordhavn\n- S\u00f8ndre Frihavn\n- Inderhavnen\n- Nyhavn\n- Christianshavn\n- Islandsbrygge\n- Havneholmen\n- Enghave Brygge\n- Sydhavn (vandet lige nord for sluseholmen er ikke med)\nSe gr\u00e6nser p\u00e5 billed til h\u00f8jre\n\nX er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke n\u00f8dvendigvis forbundte) (desto l\u00e6ngere bagud i er, desto nemmere). I skal bes\u00f8ge i hvert fald en lokation p\u00e5 hver side af vandet.\nX sidder fast efter i tager jeres f\u00f8rste billed, ie hvis modstanderholdet klarer en udfordring imens I er i gang med denne, s\u00e5 bliver den ikke nemmere.",
+            "description": "K\u00f8benhavn kom f\u00f8rst til prominens som en k\u00f8bstad, grundet dens strategiske lokation og naturlige havne. Byen er derfor fyldt med havne og brygger.\nBes\u00f8g mindst X af f\u00f8lgende omr\u00e5der, og tag billed af jer ved siden af havet:\n- Nordhavn\n- S\u00f8ndre Frihavn\n- Inderhavnen\n- Nyhavn\n- Christianshavn\n- Islandsbrygge\n- Havneholmen\n- Enghave Brygge\n- Sydhavn (vandet lige nord for sluseholmen er ikke med)\nSe gr\u00e6nser p\u00e5 billed til h\u00f8jre i sheetet.\n\nX er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke n\u00f8dvendigvis forbundte) (desto l\u00e6ngere bagud i er, desto nemmere, og omvendt). I skal bes\u00f8ge i hvert fald en lokation p\u00e5 hver side af vandet.\nX sidder fast efter i tager jeres f\u00f8rste billed, ie hvis modstanderholdet klarer en udfordring imens I er i gang med denne, s\u00e5 bliver den ikke nemmere.",
             "title": "K\u00f8bhavne i K\u00f8benhavn"
         },
         "id": 1,
@@ -60,7 +60,7 @@
     },
     "5": {
         "challenge": {
-            "description": "Jeg h\u00f8rer at Br\u00f8ndby ikke er k\u00e6mpe fan af deres rivaler FCK.\nTag et billede af grafiti, klisterm\u00e6rker eller tags med budskaber i retning af \"Fuck FCK\", \"Hader FCK\" p\u00e5 6 af disse 8 steder:\n- Lygtep\u00e6le\n- Elskabe/teknikskabe\n- Skilte (fx vejskilte eller informationsskilte)\n- Busstoppesteder\n- Broer/tunneller.\n- Mure og plankev\u00e6rker.\n- Affaldsspande\n- D\u00f8ren til eller inde p\u00e5 et offentligt toilet.",
+            "description": "Jeg h\u00f8rer at Br\u00f8ndby ikke er k\u00e6mpe fan af deres rivaler FCK.\nTag et billede af grafiti, klisterm\u00e6rker eller tags med positive br\u00f8ndby budskaber eller negative FCK budskaber p\u00e5 7 af disse 8 steder:\n- Lygtep\u00e6le\n- Elskabe/teknikskabe\n- Skilte (fx vejskilte eller informationsskilte)\n- Busstoppesteder\n- Broer/tunneller.\n- Mure og plankev\u00e6rker.\n- Affaldsspande\n- D\u00f8ren til eller inde p\u00e5 et offentligt toilet.",
             "title": "Hader FCK"
         },
         "id": 5,
@@ -86,7 +86,7 @@
     },
     "7": {
         "challenge": {
-            "description": "Gentofte er den dyreste kommune at k\u00f8be villa per kvadratmeter i. \nFind to huse til salg, og g\u00e6t hvilket hus er dyrest. Hvis i g\u00e6tter forkert, s\u00e5 er udfordringen automatisk vetoed.",
+            "description": "Gentofte er den dyreste kommune at k\u00f8be villa per kvadratmeter i. \nFind Boliger til salg og g\u00e6t deres pris inden for +-25%. \nI skal g\u00e6tte korrekt for 3 boliger, men hver gang i g\u00e6tter forkert skal i st\u00e5 stille i 5 min f\u00f8r i m\u00e5 bev\u00e6ge jer eller lave et nye g\u00e6t p\u00e5 en ny bolig.",
             "title": "Estimer Boligpriser"
         },
         "id": 7,
@@ -145,7 +145,7 @@
     },
     "11": {
         "challenge": {
-            "description": "Hvid er s\u00e5 ovre. Men m\u00e5ske er det ikke i Hvidovre.\nG\u00e5 500m v\u00e6k fra nogen togstationer, for at finde de lokale. \nLokaliser 3 personer som kun g\u00e5r helt i hvidt t\u00f8j eller alt p\u00e5n\u00e6r en artikkel af t\u00f8j er hvidt. \nVis Danmark at hvid stadig er 'en vogue'",
+            "description": "Hvid er s\u00e5 ovre. Men m\u00e5ske er det ikke i Hvidovre.\nG\u00e5 500m v\u00e6k fra nogen togstationer, for at finde de lokale. \nLokaliser 3 personer som g\u00e5r i minimum 2 artikler hvidt t\u00f8j. \nVis Danmark at hvid stadig er 'en vogue'",
             "title": "Er hvid ovre i Hvidovre?"
         },
         "id": 11,
@@ -159,7 +159,7 @@
     },
     "12": {
         "challenge": {
-            "description": "H\u00f8je Taastrup kommune er hjem til en af Danmarks mest bekendte br\u00e6tspil spillere: Simon Breum.\nMen fleste br\u00e6tspil tager jo alt for lang tid og er alt for kedelige! Kan vi ikke bare spille noget simpelt istedetfor?\n\nLav et spil Ludo ud af sten, planter, affald, et spil Ludo, eller andre ting som i kan finde.\nHerefter, spil en omgang Ludo imod hinanden, hvor hver spiller har kun en enkelt brik som de skal f\u00e5 i m\u00e5l.\n\nSpillet m\u00e5 ikke laves af ting som i bringer med ind i kommunen, dog i m\u00e5 genre bruge jeres egne terninge til at rulle med.\n\"\"Slutbanerne\"\" skal v\u00e6re anderledes og genkendelige fra \"\"rundbanen,\"\" og spillebrikkerne skal v\u00e6re genkendelige fra hinanden og selve spillet. I er ikke n\u00f8dt til at lave startfelt eller hjemmezone.\nEn brik er i m\u00e5l n\u00e5r den lander p\u00e5 det inderste felt i dens slutbane. Hvis i roller over, s\u00e5 \"\"hopper den tilbage.\"\"\nUdfordringen er f\u00e6rdig n\u00e5r den f\u00f8rste person f\u00e5r deres brik i m\u00e5l. Taberen m\u00e5 oplyse det andet hold med at sige til hvor d\u00e5rlige de er til br\u00e6tspil.",
+            "description": "H\u00f8je Taastrup kommune er hjem til en af Danmarks mest bekendte br\u00e6tspil spillere: Simon Breum.\nMen fleste br\u00e6tspil tager jo alt for lang tid og er alt for kedelige! Kan vi ikke bare spille noget simpelt istedetfor?\n\nLav et spil Ludo ud af sten, planter, affald, et spil Ludo, eller andre ting som i kan finde.\nHerefter, spil en omgang Ludo imod hinanden, hvor hver spiller har kun en enkelt brik som de skal f\u00e5 i m\u00e5l.\n\nSpillet m\u00e5 ikke laves af ting som i bringer med ind i kommunen, dog i m\u00e5 genre bruge jeres egne terninge til at rulle med.\n\"Slutbanerne\" skal have 5 felter og v\u00e6re anderledes og genkendelige fra \"rundbanen,\" og spillebrikkerne skal v\u00e6re genkendelige fra hinanden og selve spillet. I er ikke n\u00f8dt til at lave startfelt eller hjemmezone.\nEn brik er i m\u00e5l n\u00e5r den lander p\u00e5 det inderste felt i dens slutbane. Hvis i roller over, s\u00e5 \"hopper den tilbage.\"\nUdfordringen er f\u00e6rdig n\u00e5r den f\u00f8rste person f\u00e5r deres brik i m\u00e5l. Taberen m\u00e5 oplyse det andet hold med at sige til hvor d\u00e5rlige de er til br\u00e6tspil.",
             "title": "Ludo Vaner til Ludomaner"
         },
         "id": 12,
@@ -202,7 +202,7 @@
     },
     "15": {
         "challenge": {
-            "description": "R\u00f8dovre har Danmarks f\u00f8rste rigtige indend\u00f8rs shoppingcenter i \"\"R\u00f8dovre Centrum\"\" som \u00e5bnede i 1966.\nSiden da har de sm\u00e5 butikker selvf\u00f8lgelig haft det sv\u00e6rt. S\u00e5 det ville v\u00e6re rart hvis i kunne tjekke op p\u00e5 om der stadig er gang i dem!\nObserver 20 mennesker g\u00e5 ind i en \"\"uafh\u00e6ngig butik\"\" (Ikke k\u00e6de-butik). I m\u00e5 ikke t\u00e6lle jer selv som at g\u00e5 ind i buttiken.",
+            "description": "R\u00f8dovre har Danmarks f\u00f8rste rigtige indend\u00f8rs shoppingcenter i *R\u00f8dovre Centrum* som \u00e5bnede i 1966.\nSiden da har de sm\u00e5 butikker selvf\u00f8lgelig haft det sv\u00e6rt. S\u00e5 det ville v\u00e6re rart hvis i kunne tjekke op p\u00e5 om der stadig er gang i dem!\nObserver 15 mennesker g\u00e5 ind i en \"uafh\u00e6ngig butik\" (Ikke k\u00e6de-butik). I m\u00e5 ikke t\u00e6lle jer selv som at g\u00e5 ind i buttiken.",
             "title": "Tjek op p\u00e5 lokal buttikkerne"
         },
         "id": 15,
@@ -217,7 +217,7 @@
     },
     "16": {
         "challenge": {
-            "description": "T\u00e5rnby er selvbevidst omkring de ikke har mange t\u00e5rne. Byg et stent\u00e5rn som g\u00e5r over begge holdkameraters kn\u00e6.\nT\u00e5rnby har ikke pengene til at give dig ordentlige materialler, s\u00e5 i skal selv finde alle sten i kommunen og i m\u00e5 ikke bruge sten som er \u00e5bentlyst menneskeskabte \"\"fx Mursten",
+            "description": "T\u00e5rnby er selvbevidst omkring de ikke har mange t\u00e5rne. Byg et stent\u00e5rn som g\u00e5r over begge holdkameraters kn\u00e6.\nT\u00e5rnby har ikke pengene til at give dig ordentlige materialler, s\u00e5 i skal selv finde alle sten i kommunen og i m\u00e5 ikke bruge sten som er \u00e5bentlyst menneskeskabte (fx Mursten).",
             "title": "Hj\u00e6lp T\u00e5rnby med at leve op til navnet"
         },
         "id": 16,
@@ -230,7 +230,7 @@
     },
     "17": {
         "challenge": {
-            "description": "Vallensb\u00e6k kommune er Danmarks n\u00e6st-mindste og den er utrolig smal. Det ikke nogen stor sag et g\u00e5 fra ende til ende. Men det beh\u00f8ver i ikke fort\u00e6lle vallensb\u00e6k.\nG\u00e5 \u00f8st til vest fra gr\u00e6nsen til br\u00f8ndby kommune, til gr\u00e6nsen af ish\u00f8j/h\u00f8je-taastrup kommune. Eller omvendt vest til \u00f8st.\nI har ikke travlt, s\u00e5 i m\u00e5 ikke l\u00f8be eller tage nogen form for offentlig transport. \nN\u00e5r i er g\u00e5et ende til ende skal i fort\u00e6lle vallensb\u00e6k kommune \"\"Woow du er *s\u00e5* stor",
+            "description": "Vallensb\u00e6k kommune er Danmarks n\u00e6st-mindste og den er utrolig smal. Det ikke nogen stor sag et g\u00e5 fra ende til ende. Men det beh\u00f8ver i ikke fort\u00e6lle vallensb\u00e6k.\nG\u00e5 \u00f8st til vest fra gr\u00e6nsen til Br\u00f8ndby kommune, til gr\u00e6nsen af Ish\u00f8j/H\u00f8je-Taastrup kommune. Eller omvendt vest til \u00f8st.\nI har ikke travlt, s\u00e5 i m\u00e5 ikke l\u00f8be eller tage nogen form for offentlig transport. \nN\u00e5r i er g\u00e5et ende til ende skal i fort\u00e6lle Vallensb\u00e6k kommune 'Woow du er *s\u00e5* stor'",
             "title": "Short-king Vallensb\u00e6k"
         },
         "id": 17,
@@ -244,7 +244,7 @@
     },
     "18": {
         "challenge": {
-            "description": "Hanna Haler\u00f8d er trolden som kan findes i Aller\u00f8ds skove. Men at beskytte Aller\u00f8ds skove er sultent arbejde og Hanna er Huuungy!\nTrolde spiser sten og mineraler (og baby geder??), s\u00e5 find minimum 30 sten som er st\u00f8rre end 3cm, og placer dem i et hjerte form i en af Aller\u00f8ds kommunes skove. \nSkriv derefter \"\"Hanna\"\" med vilk\u00e5rlige sten i midten er hjertet s\u00e5 Hanna ved det er til hende.",
+            "description": "Hanna Haler\u00f8d er trolden som kan findes i Aller\u00f8ds skove. Men at beskytte Aller\u00f8ds skove er sultent arbejde og Hanna er Huuungy!\nTrolde spiser sten og mineraler (og baby geder??), s\u00e5 find minimum 30 sten som er st\u00f8rre end 3cm, og placer dem i et hjerte form i en af Aller\u00f8ds kommunes skove. \nSkriv derefter \"Hanna\" med vilk\u00e5rlige sten i midten er hjertet s\u00e5 Hanna ved det er til hende.",
             "title": "Hanna er Sulten"
         },
         "id": 18,
@@ -260,7 +260,7 @@
     },
     "19": {
         "challenge": {
-            "description": "Egedal kommune har haft mange problemer med deres navn. Egedal hed \"\"Kongsdal\"\" indtil trussel om sagsanl\u00e6g. Navnet \"\"Egedal\"\" blev derefter valgt p\u00e5 trods af endnu en trussel om sagsanl\u00e6g. \nFind to personer med det samme navn (fornavn eller efternavn). V\u00e6lg hvem der repr\u00e6senterer kommunen og hvem der repr\u00e6senterer privatpersonerne og derefter sl\u00e5 plat og krone to gange i tr\u00e6k, om hvem der m\u00e5 beholde deres navn. F\u00f8rst skal privatpersonen vinde og derefter skal kommunen vinde. ",
+            "description": "Egedal kommune har haft mange problemer med deres navn. Egedal hed *Kongsdal* indtil trussel om sagsanl\u00e6g. Navnet *Egedal* blev derefter valgt p\u00e5 trods af endnu en trussel om sagsanl\u00e6g. \nFind det samme navn 2 steder og tag et billede af dem begge (fornavn eller efternavn). V\u00e6lg hvem der repr\u00e6senterer kommunen og hvem der repr\u00e6senterer privatpersonerne og derefter sl\u00e5 plat og krone to gange i tr\u00e6k, om hvem der m\u00e5 beholde deres navn. F\u00f8rst skal privatpersonen vinde og derefter skal kommunen vinde.",
             "title": "Start en ny navnestrid"
         },
         "id": 19,
@@ -276,7 +276,7 @@
     },
     "20": {
         "challenge": {
-            "description": "Find et sted enten p\u00e5 stranden eller i en skov, hvor man i 60 sekunder ikke kan h\u00f8re et bil eller menneske, men bare naturens lyde...\nEfter 60 sekunder stilhed skal i begge r\u00e5be det f\u00f8rste chat-GPT foresl\u00e5r i skal r\u00e5be n\u00e5r du giver den denne promt:\n\"\"giv mig en meget uh\u00f8felig ting at r\u00e5be p\u00e5 en meget stille strand\"\"/\"\"giv mig en meget uh\u00f8felig ting at r\u00e5be i en meget stille skov",
+            "description": "Find et sted enten p\u00e5 stranden eller i en skov, hvor man i 60 sekunder ikke kan h\u00f8re et bil eller menneske, men bare naturens lyde...\nEfter 60 sekunder stilhed skal i begge r\u00e5be det f\u00f8rste chat-GPT foresl\u00e5r i skal r\u00e5be n\u00e5r du giver den denne promt:\n*giv mig en meget uh\u00f8felig ting at r\u00e5be p\u00e5 en meget stille strand/giv mig en meget uh\u00f8felig ting at r\u00e5be i en meget stille skov*",
             "title": "\u00d8del\u00e6g freden i Fredensborg"
         },
         "id": 20,
@@ -351,7 +351,7 @@
     },
     "25": {
         "challenge": {
-            "description": "Find et sted hvor i kan se over til Sverige(Yuck), og v\u00e6lg et betemt punkt p\u00e5 den Svenske kyst.\nHvert skib som sejler mellem jer og det valgte punkt skal nu betale en told!\nprivatskibe betaler 5 kroner, kommercielskibe betaler 10 kroner.\nN\u00e5r nok skibe er sejlet gennem sundet til at statskassen er blevet 200 kr. rigere, s\u00e5 kan i holde fyraften!",
+            "description": "Find et sted hvor i kan se over til Sverige(Yuck), og v\u00e6lg et bestemt punkt p\u00e5 den Svenske kyst.\nHvert skib som sejler mellem jer og det valgte punkt skal nu betale en told!\nprivatskibe betaler 5 kroner, kommercielskibe betaler 10 kroner.\nN\u00e5r nok skibe er sejlet gennem sundet til at statskassen er blevet 200 kr. rigere, s\u00e5 kan i holde fyraften!",
             "title": "Genindf\u00f8r \u00d8resundstolden"
         },
         "id": 25,
@@ -363,7 +363,7 @@
     },
     "26": {
         "challenge": {
-            "description": "Det nye flotte supersygehus i Hiller\u00f8d er uheldigvis blevet ramt af forsinkelser og g\u00e5et over budget, s\u00e5 nu skal I vise Hiller\u00f8d hvordan man bygger et sygehus.\nI skal f\u00f8rst finde et fladt stykke jord at bygge p\u00e5, hvorefter I f\u00e5r 10 minutter til at samle naturmaterialer (pinde, kogler, sten osv.) og bygge et sygehus med dem.\nDerefter skal I tage et billede ovenfra af jeres byggeri som I kan v\u00e6re stolte af. Byggeriet skal mindst have:\n- Et tydeligt H (som selvf\u00f8lgelig st\u00e5r for Hiller\u00f8d)\n- 3 separate aflukkede rum, hvoraf 1 har en \u00e5bning i sig (til ambulancerne)\n- En helipad, dvs. en cirkel/cirkul\u00e6rt objekt\nHvis I ikke n\u00e5r det inden for tiden, m\u00e5 I g\u00e5 mindst 100 meter v\u00e6k og starte forfra efter 10 minutters t\u00e6nkepause til at overveje hvordan I forklarer denne forsinkelse til kommunen\n",
+            "description": "Det nye flotte supersygehus i Hiller\u00f8d er uheldigvis blevet ramt af forsinkelser og g\u00e5et over budget, s\u00e5 nu skal I vise Hiller\u00f8d hvordan man bygger et sygehus.\nI skal f\u00f8rst finde et fladt stykke jord at bygge p\u00e5, hvorefter I f\u00e5r 10 minutter til at samle naturmaterialer (pinde, kogler, sten osv.) og bygge et sygehus med dem.\nDerefter skal I tage et billede ovenfra af jeres byggeri som I kan v\u00e6re stolte af. Byggeriet skal mindst have:\n- Et tydeligt H (som selvf\u00f8lgelig st\u00e5r for Hiller\u00f8d)\n- 3 separate aflukkede rum, hvoraf 1 har en \u00e5bning i sig (til ambulancerne)\n- En helipad, dvs. en cirkel/cirkul\u00e6rt objekt\nHvis I ikke n\u00e5r det inden for tiden, m\u00e5 I g\u00e5 mindst 100 meter v\u00e6k og starte forfra efter 10 minutters t\u00e6nkepause til at overveje hvordan I forklarer denne forsinkelse til kommunen",
             "title": "Hj\u00e6lp Region H med nyt supersygehus"
         },
         "id": 26,
@@ -391,8 +391,8 @@
     },
     "28": {
         "challenge": {
-            "description": "",
-            "title": ""
+            "description": "Den f\u00f8rste teammate skal s\u00e6tte sig ned imens den anden spiller g\u00e5r rundt og tager billeder af 4 forskellige bygninger.\nDen f\u00f8rste teammate skal derefter vurdere hvilken bygning korrespondere til henholdvist:\nDen gode bygning, Den onde bygning, den grusomme bygning og den tr\u00e6tte bygning. (NO COLLUDING)\nHvis i lykkes halleluja! Men hvis ikke s\u00e5 skal i bytte rolle og i m\u00e5 ikke bruge de nogen af bygningerne fra forige runde.",
+            "title": "Den gode, den onde, den grusomme og den tr\u00e6tte"
         },
         "id": 28,
         "name": "Rudersdal",
@@ -419,7 +419,7 @@
     },
     "30": {
         "challenge": {
-            "description": "Solr\u00f8d er et anagram for \"\"ordl\u00f8s\"\", hvilket giver meget bedre mening da solen faktisk ikke er r\u00f8d!\nS\u00e5 ehrm hj\u00e6lp Solr\u00f8d med at finde et ord.\nI skal finde et tilf\u00e6digt 10 bogstaver langt ord ved at google \"\"giv mig et tilf\u00e6ldigt 10 bogstaver langt ord\"\".\nI skal derefter finde bogstaverne til jeres ord rundt i byen p\u00e5 skilte bygninger eller ligende. Det skal alts\u00e5 v\u00e6re perminent skrift, ikke en avis i fandt p\u00e5 jorden.\nI m\u00e5 kun bruge et bogstav pr bygning/skilt/lignende. N\u00e5r i kan danne ordet med bogstaver i har fudnet har i gjort solr\u00f8d til ordrig :)",
+            "description": "Solr\u00f8d er et anagram for \"\"ordl\u00f8s\"\", hvilket giver meget bedre mening da solen faktisk ikke er r\u00f8d!\nS\u00e5 ehrm hj\u00e6lp Solr\u00f8d med at finde nye ord, ved at danne et helt alfabet til solr\u00f8d \u00eat bogstav ad gangen.\nI skal finde bogstaverne til jeres alfabet rundt i byen p\u00e5 skilte, bygninger eller ligende. Det skal alts\u00e5 v\u00e6re perminent skrift, ikke en avis i fandt p\u00e5 jorden.\nI m\u00e5 kun bruge et bogstav pr bygning/skilt/lignende. N\u00e5r har dannet hele det danske alfabet s\u00e5 er solr\u00f8d solglad!\n\nMen i kan ogs\u00e5 v\u00e6lge at tigge Solr\u00f8d om at jeres alfabet ikke beh\u00f8ver *alle* 29 bogstaver i det danske alfabet.\nSolr\u00f8d vil bare kalde jer babyer, og bede jer kaste en valgfri genstand imellem jer succesfuldt X gange fra en 5 meters distance, hvor X er bogstavets placering i det danske alfabet:\n   - btw Q er det 13. bogstav, W, X, Y og Z er det. 23., 24., 25., og 26 bogstav hvis nogen skulle sp\u00f8rge.\nOh og fordi Solr\u00f8d kalder jer babyer s\u00e5 skal begge spillere v\u00e6re p\u00e5 deres kn\u00e6 hvor de g\u00f8r den ting med deres sko under kn\u00e6ende, s\u00e5 de ligner et lille barn. Imens de kaster/griber.",
             "title": "Hemmeligheden bag solr\u00f8ds navn."
         },
         "id": 30,
@@ -445,7 +445,7 @@
     },
     "32": {
         "challenge": {
-            "description": "Roskilde l\u00e6gger plads til Danmarks st\u00f8rste live-musik festival, og Eminems optr\u00e6den p\u00e5 Orange Scene i 2018 var festivalens st\u00f8rste med mere end 100.000 i publikum. I skal nu overg\u00e5 hans koncert.\nV\u00e6lg tilf\u00e6ldigt en af Eminems mest lyttede-til sange p\u00e5 Spotify. L\u00e6r og udf\u00f8r et tilf\u00e6ldigt vers plus omkv\u00e6det.",
+            "description": "Roskilde l\u00e6gger plads til Danmarks st\u00f8rste live-musik festival, og Eminems optr\u00e6den p\u00e5 Orange Scene i 2018 var festivalens st\u00f8rste med mere end 100.000 i publikum. I skal nu overg\u00e5 hans koncert.\nV\u00e6lg tilf\u00e6ldigt en af Eminems mest lyttede-til sange p\u00e5 Spotify. L\u00e6r og udf\u00f8r et tilf\u00e6ldigt vers plus omkv\u00e6det. Den ene spiller skal synge verset, den anden skal synge omkv\u00e6det. Det beh\u00f8ver ikke v\u00e6re on-beat, men skal v\u00e6re i one take uden teksten.",
             "title": "Become *the* Rap God"
         },
         "id": 32,

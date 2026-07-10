@@ -21,9 +21,9 @@ Besøg mindst X af følgende områder, og tag billed af jer ved siden af havet:
 - Havneholmen
 - Enghave Brygge
 - Sydhavn (vandet lige nord for sluseholmen er ikke med)
-Se grænser på billed til højre
+Se grænser på billed til højre i sheetet.
 
-X er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke nødvendigvis forbundte) (desto længere bagud i er, desto nemmere). I skal besøge i hvert fald en lokation på hver side af vandet.
+X er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke nødvendigvis forbundte) (desto længere bagud i er, desto nemmere, og omvendt). I skal besøge i hvert fald en lokation på hver side af vandet.
 X sidder fast efter i tager jeres første billed, ie hvis modstanderholdet klarer en udfordring imens I er i gang med denne, så bliver den ikke nemmere.""",
     ),
 )
@@ -61,7 +61,7 @@ broendby = State(
     challenge=Challenge(
         "Hader FCK",
         """Jeg hører at Brøndby ikke er kæmpe fan af deres rivaler FCK.
-Tag et billede af grafiti, klistermærker eller tags med budskaber i retning af "Fuck FCK", "Hader FCK" på 6 af disse 8 steder:
+Tag et billede af grafiti, klistermærker eller tags med positive brøndby budskaber eller negative FCK budskaber på 7 af disse 8 steder:
 - Lygtepæle
 - Elskabe/teknikskabe
 - Skilte (fx vejskilte eller informationsskilte)
@@ -89,7 +89,8 @@ gentofte = State(
     challenge=Challenge(
         "Estimer Boligpriser",
         """Gentofte er den dyreste kommune at købe villa per kvadratmeter i. 
-Find to huse til salg, og gæt hvilket hus er dyrest. Hvis i gætter forkert, så er udfordringen automatisk vetoed.""",
+Find Boliger til salg og gæt deres pris inden for +-25%. 
+I skal gætte korrekt for 3 boliger, men hver gang i gætter forkert skal i stå stille i 5 min før i må bevæge jer eller lave et nye gæt på en ny bolig.""",
     ),
 )
 gladsaxe = State(
@@ -129,7 +130,7 @@ hvidovre = State(
         "Er hvid ovre i Hvidovre?",
         """Hvid er så ovre. Men måske er det ikke i Hvidovre.
 Gå 500m væk fra nogen togstationer, for at finde de lokale. 
-Lokaliser 3 personer som kun går helt i hvidt tøj eller alt pånær en artikkel af tøj er hvidt. 
+Lokaliser 3 personer som går i minimum 2 artikler hvidt tøj. 
 Vis Danmark at hvid stadig er 'en vogue'""",
     ),
 )
@@ -145,8 +146,8 @@ Lav et spil Ludo ud af sten, planter, affald, et spil Ludo, eller andre ting som
 Herefter, spil en omgang Ludo imod hinanden, hvor hver spiller har kun en enkelt brik som de skal få i mål.
 
 Spillet må ikke laves af ting som i bringer med ind i kommunen, dog i må genre bruge jeres egne terninge til at rulle med.
-""Slutbanerne"" skal være anderledes og genkendelige fra ""rundbanen,"" og spillebrikkerne skal være genkendelige fra hinanden og selve spillet. I er ikke nødt til at lave startfelt eller hjemmezone.
-En brik er i mål når den lander på det inderste felt i dens slutbane. Hvis i roller over, så ""hopper den tilbage.""
+"Slutbanerne" skal have 5 felter og være anderledes og genkendelige fra "rundbanen," og spillebrikkerne skal være genkendelige fra hinanden og selve spillet. I er ikke nødt til at lave startfelt eller hjemmezone.
+En brik er i mål når den lander på det inderste felt i dens slutbane. Hvis i roller over, så "hopper den tilbage."
 Udfordringen er færdig når den første person får deres brik i mål. Taberen må oplyse det andet hold med at sige til hvor dårlige de er til brætspil.""",
     ),
 )
@@ -194,9 +195,9 @@ roedovre = State(
     "Rødovre",
     challenge=Challenge(
         "Tjek op på lokal buttikkerne",
-        """Rødovre har Danmarks første rigtige indendørs shoppingcenter i ""Rødovre Centrum"" som åbnede i 1966.
+        """Rødovre har Danmarks første rigtige indendørs shoppingcenter i *Rødovre Centrum* som åbnede i 1966.
 Siden da har de små butikker selvfølgelig haft det svært. Så det ville være rart hvis i kunne tjekke op på om der stadig er gang i dem!
-Observer 20 mennesker gå ind i en ""uafhængig butik"" (Ikke kæde-butik). I må ikke tælle jer selv som at gå ind i buttiken.""",
+Observer 15 mennesker gå ind i en "uafhængig butik" (Ikke kæde-butik). I må ikke tælle jer selv som at gå ind i buttiken.""",
     ),
 )
 taarnby = State(
@@ -205,7 +206,7 @@ taarnby = State(
     challenge=Challenge(
         "Hjælp Tårnby med at leve op til navnet",
         """Tårnby er selvbevidst omkring de ikke har mange tårne. Byg et stentårn som går over begge holdkameraters knæ.
-Tårnby har ikke pengene til at give dig ordentlige materialler, så i skal selv finde alle sten i kommunen og i må ikke bruge sten som er åbentlyst menneskeskabte ""fx Mursten""""",
+Tårnby har ikke pengene til at give dig ordentlige materialler, så i skal selv finde alle sten i kommunen og i må ikke bruge sten som er åbentlyst menneskeskabte (fx Mursten).""",
     ),
 )
 vallensbaek = State(
@@ -214,9 +215,9 @@ vallensbaek = State(
     challenge=Challenge(
         "Short-king Vallensbæk",
         """Vallensbæk kommune er Danmarks næst-mindste og den er utrolig smal. Det ikke nogen stor sag et gå fra ende til ende. Men det behøver i ikke fortælle vallensbæk.
-Gå øst til vest fra grænsen til brøndby kommune, til grænsen af ishøj/høje-taastrup kommune. Eller omvendt vest til øst.
+Gå øst til vest fra grænsen til Brøndby kommune, til grænsen af Ishøj/Høje-Taastrup kommune. Eller omvendt vest til øst.
 I har ikke travlt, så i må ikke løbe eller tage nogen form for offentlig transport. 
-Når i er gået ende til ende skal i fortælle vallensbæk kommune ""Woow du er *så* stor""""",
+Når i er gået ende til ende skal i fortælle Vallensbæk kommune 'Woow du er *så* stor'""",
     ),
 )
 alleroed = State(
@@ -226,7 +227,7 @@ alleroed = State(
         "Hanna er Sulten",
         """Hanna Halerød er trolden som kan findes i Allerøds skove. Men at beskytte Allerøds skove er sultent arbejde og Hanna er Huuungy!
 Trolde spiser sten og mineraler (og baby geder??), så find minimum 30 sten som er større end 3cm, og placer dem i et hjerte form i en af Allerøds kommunes skove. 
-Skriv derefter ""Hanna"" med vilkårlige sten i midten er hjertet så Hanna ved det er til hende.""",
+Skriv derefter "Hanna" med vilkårlige sten i midten er hjertet så Hanna ved det er til hende.""",
     ),
 )
 egedal = State(
@@ -234,8 +235,8 @@ egedal = State(
     "Egedal",
     challenge=Challenge(
         "Start en ny navnestrid",
-        """Egedal kommune har haft mange problemer med deres navn. Egedal hed ""Kongsdal"" indtil trussel om sagsanlæg. Navnet ""Egedal"" blev derefter valgt på trods af endnu en trussel om sagsanlæg. 
-Find to personer med det samme navn (fornavn eller efternavn). Vælg hvem der repræsenterer kommunen og hvem der repræsenterer privatpersonerne og derefter slå plat og krone to gange i træk, om hvem der må beholde deres navn. Først skal privatpersonen vinde og derefter skal kommunen vinde. """,
+        """Egedal kommune har haft mange problemer med deres navn. Egedal hed *Kongsdal* indtil trussel om sagsanlæg. Navnet *Egedal* blev derefter valgt på trods af endnu en trussel om sagsanlæg. 
+Find det samme navn 2 steder og tag et billede af dem begge (fornavn eller efternavn). Vælg hvem der repræsenterer kommunen og hvem der repræsenterer privatpersonerne og derefter slå plat og krone to gange i træk, om hvem der må beholde deres navn. Først skal privatpersonen vinde og derefter skal kommunen vinde.""",
     ),
 )
 fredensborg = State(
@@ -245,7 +246,7 @@ fredensborg = State(
         "Ødelæg freden i Fredensborg",
         """Find et sted enten på stranden eller i en skov, hvor man i 60 sekunder ikke kan høre et bil eller menneske, men bare naturens lyde...
 Efter 60 sekunder stilhed skal i begge råbe det første chat-GPT foreslår i skal råbe når du giver den denne promt:
-""giv mig en meget uhøfelig ting at råbe på en meget stille strand""/""giv mig en meget uhøfelig ting at råbe i en meget stille skov""""",
+*giv mig en meget uhøfelig ting at råbe på en meget stille strand/giv mig en meget uhøfelig ting at råbe i en meget stille skov*""",
     ),
 )
 frederikssund = State(
@@ -293,7 +294,7 @@ helsingoer = State(
     "Helsingør",
     challenge=Challenge(
         "Genindfør Øresundstolden",
-        """Find et sted hvor i kan se over til Sverige(Yuck), og vælg et betemt punkt på den Svenske kyst.
+        """Find et sted hvor i kan se over til Sverige(Yuck), og vælg et bestemt punkt på den Svenske kyst.
 Hvert skib som sejler mellem jer og det valgte punkt skal nu betale en told!
 privatskibe betaler 5 kroner, kommercielskibe betaler 10 kroner.
 Når nok skibe er sejlet gennem sundet til at statskassen er blevet 200 kr. rigere, så kan i holde fyraften!""",
@@ -310,8 +311,7 @@ Derefter skal I tage et billede ovenfra af jeres byggeri som I kan være stolte 
 - Et tydeligt H (som selvfølgelig står for Hillerød)
 - 3 separate aflukkede rum, hvoraf 1 har en åbning i sig (til ambulancerne)
 - En helipad, dvs. en cirkel/cirkulært objekt
-Hvis I ikke når det inden for tiden, må I gå mindst 100 meter væk og starte forfra efter 10 minutters tænkepause til at overveje hvordan I forklarer denne forsinkelse til kommunen
-""",
+Hvis I ikke når det inden for tiden, må I gå mindst 100 meter væk og starte forfra efter 10 minutters tænkepause til at overveje hvordan I forklarer denne forsinkelse til kommunen""",
     ),
 )
 hoersholm = State(
@@ -327,8 +327,11 @@ rudersdal = State(
     28,
     "Rudersdal",
     challenge=Challenge(
-        "",
-        """""",
+        "Den gode, den onde, den grusomme og den trætte",
+        """Den første teammate skal sætte sig ned imens den anden spiller går rundt og tager billeder af 4 forskellige bygninger.
+Den første teammate skal derefter vurdere hvilken bygning korrespondere til henholdvist:
+Den gode bygning, Den onde bygning, den grusomme bygning og den trætte bygning. (NO COLLUDING)
+Hvis i lykkes halleluja! Men hvis ikke så skal i bytte rolle og i må ikke bruge de nogen af bygningerne fra forige runde.""",
     ),
 )
 greve = State(
@@ -348,10 +351,14 @@ solroed = State(
     challenge=Challenge(
         "Hemmeligheden bag solrøds navn.",
         """Solrød er et anagram for ""ordløs"", hvilket giver meget bedre mening da solen faktisk ikke er rød!
-Så ehrm hjælp Solrød med at finde et ord.
-I skal finde et tilfædigt 10 bogstaver langt ord ved at google ""giv mig et tilfældigt 10 bogstaver langt ord"".
-I skal derefter finde bogstaverne til jeres ord rundt i byen på skilte bygninger eller ligende. Det skal altså være perminent skrift, ikke en avis i fandt på jorden.
-I må kun bruge et bogstav pr bygning/skilt/lignende. Når i kan danne ordet med bogstaver i har fudnet har i gjort solrød til ordrig :)""",
+Så ehrm hjælp Solrød med at finde nye ord, ved at danne et helt alfabet til solrød êt bogstav ad gangen.
+I skal finde bogstaverne til jeres alfabet rundt i byen på skilte, bygninger eller ligende. Det skal altså være perminent skrift, ikke en avis i fandt på jorden.
+I må kun bruge et bogstav pr bygning/skilt/lignende. Når har dannet hele det danske alfabet så er solrød solglad!
+
+Men i kan også vælge at tigge Solrød om at jeres alfabet ikke behøver *alle* 29 bogstaver i det danske alfabet.
+Solrød vil bare kalde jer babyer, og bede jer kaste en valgfri genstand imellem jer succesfuldt X gange fra en 5 meters distance, hvor X er bogstavets placering i det danske alfabet:
+   - btw Q er det 13. bogstav, W, X, Y og Z er det. 23., 24., 25., og 26 bogstav hvis nogen skulle spørge.
+Oh og fordi Solrød kalder jer babyer så skal begge spillere være på deres knæ hvor de gør den ting med deres sko under knæende, så de ligner et lille barn. Imens de kaster/griber.""",
     ),
 )
 koege = State(
@@ -369,7 +376,7 @@ roskilde = State(
     challenge=Challenge(
         "Become *the* Rap God",
         """Roskilde lægger plads til Danmarks største live-musik festival, og Eminems optræden på Orange Scene i 2018 var festivalens største med mere end 100.000 i publikum. I skal nu overgå hans koncert.
-Vælg tilfældigt en af Eminems mest lyttede-til sange på Spotify. Lær og udfør et tilfældigt vers plus omkvædet.""",
+Vælg tilfældigt en af Eminems mest lyttede-til sange på Spotify. Lær og udfør et tilfældigt vers plus omkvædet. Den ene spiller skal synge verset, den anden skal synge omkvædet. Det behøver ikke være on-beat, men skal være i one take uden teksten.""",
     ),
 )
 lejre = State(
