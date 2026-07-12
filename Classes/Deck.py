@@ -13,7 +13,7 @@ class Deck:
             hands: dict[str, list[int]] = None,
             claimed: dict[str, list[int]] = None,
     ):
-        self.deck: list[int] = deck
+        self.deck: list[int] = deck[:]
         
         if tableau is None:
             tableau = []

@@ -67,6 +67,7 @@ class GameModel:
     
     def claim(self, team: str, card: int) -> Optional[int]:
         self.changes = True
+        self.game.uf.claim(card, team)
         return self.game.deck.claim(card, team)
     
     def discard(self, card: int) -> int:

@@ -63,6 +63,7 @@ async def get_options(interaction: Interaction):
         team = gm.get_team_by_captain(interaction.user.mention)
         tableau_ids = gm.get_tableau()
         private_hand_ids = gm.get_private_hand(team)
+        
     with StateModel() as sm:
         tableau = [
             sm.get_state(id).name for id in tableau_ids
@@ -79,11 +80,28 @@ async def get_options(interaction: Interaction):
 @app_commands.command(name="get_status", description="Get's the current board state.")
 async def get_status(interaction: Interaction):
     with GameModel() as gm:
+        red_captain = gm.get_captain('red')
+        blue_captain = gm.get_captain('blue')
+        scores = gm.game.uf.get_scores()
+        clusters = gm.game.uf.get_largest_clusters()
+        
+    with StateModel() as sm:
+        red_cluster = sm.get_states_in_markup(clusters['red'])
+        blue_cluster = sm.get_states_in_markup(clusters['blue'])
+    
+    red_status = f"## Red team ({red_captain}) has a score of {scores['red'][0]} ({scores['red'][1]}). Their largest cluster is:\n{red_cluster}"
+    blue_status = f"## Blue team ({blue_captain}) has a score of {scores['blue'][0]} ({scores['blue'][1]}). Their largest cluster is:\n{blue_cluster}"
+    
+    await interaction.response.send_message(f"{red_status}\n{blue_status}")
+    
+@app_commands.command(name="get_claimed", description="Shows all the states claimed by either team.")
+async def get_claimed(interaction: Interaction):
+    with GameModel() as gm:
         red_claimed_ids = gm.get_claimed('red')
         red_captain = gm.get_captain('red')
         blue_claimed_ids = gm.get_claimed('blue')
         blue_captain = gm.get_captain('blue')
-    
+
     with StateModel() as sm:
         red_claimed = [
             sm.get_state(id).name for id in red_claimed_ids
@@ -91,10 +109,10 @@ async def get_status(interaction: Interaction):
         blue_claimed = [
             sm.get_state(id).name for id in blue_claimed_ids
         ]
-    
+
     blue_status = f"## Blue team ({blue_captain}) currently has {len(blue_claimed)} claimed states:\n- {'\n- '.join(blue_claimed)}"
     red_status = f"## Red team ({red_captain}) currently has {len(red_claimed)} claimed states:\n- {'\n- '.join(red_claimed)}"
-    
+
     await interaction.response.send_message(f"{red_status}\n{blue_status}")
 
 class GameController:
@@ -107,6 +125,7 @@ class GameController:
             get_private_hand,
             get_options,
             get_status,
+            get_claimed,
         ]
     
     def register_commands(self, tree: app_commands.CommandTree):

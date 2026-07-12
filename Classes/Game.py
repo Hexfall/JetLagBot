@@ -3,11 +3,12 @@ from typing import Optional
 from json import dumps, loads
 
 from Classes.Deck import Deck
+from Classes.UnionFind import UnionFind
 from Constants import HOURS_PER_PRIVATE_CARD
 
 
 class Game:
-    def __init__(self, start_time: datetime = None, channel_id: int = None, deck: Deck = None, captains: dict[str, str] = None):
+    def __init__(self, start_time: datetime = None, channel_id: int = None, deck: Deck = None, captains: dict[str, str] = None, uf: UnionFind = None):
         if start_time is None:
             self.start_time: datetime = datetime.now()
         else:
@@ -15,6 +16,10 @@ class Game:
         self.channel_id: int = channel_id
         self.deck: Deck = deck
         self.captains: dict[str, str] = captains
+        if uf is None:
+            self.uf: UnionFind = UnionFind.new_uf([])
+        else:
+            self.uf: UnionFind = uf
     
     def get_hours_since_start(self) -> int:
         return int((datetime.now() - self.start_time).total_seconds() / 3600)
@@ -37,6 +42,7 @@ class Game:
             'channel_id': self.channel_id,
             'deck': self.deck.to_dict(),
             'captains': self.captains,
+            'uf': self.uf.to_dict(),
         }
         
         return dumps(
@@ -49,6 +55,7 @@ class Game:
         d = loads(json_str)
         d['start_time'] = datetime.fromisoformat(d['start_time'])
         d['deck'] = Deck(**d['deck'])
+        d['uf'] = UnionFind(**d['uf'])
         return Game(**d)
     
     @staticmethod
@@ -57,5 +64,6 @@ class Game:
             channel_id=channel_id,
             captains=captains,
             deck=Deck(deck),
+            uf=UnionFind.new_uf(deck),
         )
     
