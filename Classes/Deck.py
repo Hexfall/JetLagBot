@@ -24,7 +24,7 @@ class Deck:
                 'red': [],
                 'blue': [],
             }
-            self.fill_hands()
+            self.fill_hands([1])
         else:
             self.hands: dict[str, list[int]] = hands
         
@@ -35,25 +35,33 @@ class Deck:
             }
         self.claimed: dict[str, list[int]] = claimed
         
-        self.refill_tableau()
+        self.refill_tableau([1])
     
-    def refill_tableau(self) -> Optional[int]:
+    def refill_tableau(self, avoid: list[int] = None) -> Optional[int]:
+        if avoid is None:
+            avoid = []
         refilled: bool = len(self.tableau) < TABLEAU_SIZE and len(self.deck) > 0
         while len(self.tableau) < TABLEAU_SIZE and len(self.deck) > 0:
-            self.tableau.append(self.draw())
+            self.tableau.append(self.draw(avoid))
         
         if refilled:
             return self.tableau[-1]
         return None
     
-    def fill_hands(self):
+    def fill_hands(self, avoid: list[int] = None):
+        if avoid is None:
+            avoid = []
         for hand in self.hands.values():
             while len(hand) < PRIVATE_HAND_SIZE and len(self.deck) > 0:
-                hand.append(self.draw())
+                hand.append(self.draw(avoid))
 
     # Remove and return a random card from the deck
-    def draw(self) -> int:
+    def draw(self, avoid: list[int] = None) -> int:
+        if avoid is None:
+            avoid = []
         card = choice(self.deck)
+        while card in avoid:
+            card = choice(self.deck)
         self.deck.remove(card)
         return card
     
