@@ -74,7 +74,7 @@ Tag et billede af grafiti, klistermærker eller tags med positive brøndby budsk
 )
 dragoer = State(
     6,
-    "Dragør",
+    "Dragør (Orange)",
     challenge=Challenge(
         "Vis jeres had til Kastrup lufthavn",
         """Dragør kommune har en masse flotte stille villakvarterer med den lille bagatel at kommunen ligger lige op ad Kastrup lufthavn, hvilket giver noget støj.
@@ -241,7 +241,7 @@ Find det samme navn 2 steder og tag et billede af dem begge (fornavn eller efter
 )
 fredensborg = State(
     20,
-    "Fredensborg",
+    "Fredensborg (Orange)",
     challenge=Challenge(
         "Ødelæg freden i Fredensborg",
         """Find et sted enten på stranden eller i en skov, hvor man i 60 sekunder ikke kan høre et bil eller menneske, men bare naturens lyde...
@@ -251,7 +251,7 @@ Efter 60 sekunder stilhed skal i begge råbe det første chat-GPT foreslår i sk
 )
 frederikssund = State(
     21,
-    "Frederikssund",
+    "Frederikssund (Orange)",
     challenge=Challenge(
         "Afkod vikingrunerne",
         """Frederikssund kommune er verdenskendt for sit fantastiske årlige vikingespil og vikingske efterladenskaber, der tiltrækker folk fra alle verdenshjørner.
@@ -270,7 +270,7 @@ Sønderssø og Farum sø, og slå søen fysisk med din knytnæve. That'll show e
 )
 gribskov = State(
     23,
-    "Gribskov",
+    "Gribskov (Orange)",
     challenge=Challenge(
         "Plant et træ, hvis skygge i aldrig vil sidde i.",
         """Det bedste tidspunkt at plante et træ var 30 år siden, det næstbedste tidspunkt er lige nu. Altså *nu* nu.
@@ -280,7 +280,7 @@ I må kun bruge jeres hænder eller grene/pinde/sten i finder på jorden som sko
 )
 halsnaes = State(
     24,
-    "Halsnæs",
+    "Halsnæs (Red)",
     challenge=Challenge(
         "Identitetspolitik",
         """*Halsnæs Kommune* ændrede deres navn i 2008, væk fra *Frederiksværk-Hundested* Kommune.
@@ -291,7 +291,7 @@ Send derefter denne video til det andet hold og skæld dem ud for deres gammelda
 )
 helsingoer = State(
     25,
-    "Helsingør",
+    "Helsingør (Orange)",
     challenge=Challenge(
         "Genindfør Øresundstolden",
         """Find et sted hvor i kan se over til Sverige(Yuck), og vælg et bestemt punkt på den Svenske kyst.
@@ -363,7 +363,7 @@ Oh og fordi Solrød kalder jer babyer så skal begge spillere være på deres kn
 )
 koege = State(
     31,
-    "Køge",
+    "Køge (Orange)",
     challenge=Challenge(
         "Hyldest til Suzuki-Torben",
         """Køge er bl.a. kendt for sine hæderlige politikere og deres meget lovlydige venner, bl.a. Suzuki-Torben. 
@@ -372,7 +372,7 @@ For at vise Køge-egnets kærlighed til Suzuki-biler skal I derfor nu tage 3 bil
 )
 roskilde = State(
     32,
-    "Roskilde",
+    "Roskilde (Orange)",
     challenge=Challenge(
         "Become *the* Rap God",
         """Roskilde lægger plads til Danmarks største live-musik festival, og Eminems optræden på Orange Scene i 2018 var festivalens største med mere end 100.000 i publikum. I skal nu overgå hans koncert.
@@ -381,7 +381,7 @@ Vælg tilfældigt en af Eminems mest lyttede-til sange på Spotify. Lær og udf�
 )
 lejre = State(
     33,
-    "Lejre",
+    "Lejre (Orange)",
     challenge=Challenge(
         "Vi kigger på fugle 🎵",
         """Én fugl i hånden er bedre end ti på taget. Men vi tager hvad vi kan få.

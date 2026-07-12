@@ -79,7 +79,7 @@
             "title": "Vis jeres had til Kastrup lufthavn"
         },
         "id": 6,
-        "name": "Drag\u00f8r",
+        "name": "Drag\u00f8r (Orange)",
         "neighbors": [
             16
         ]
@@ -280,7 +280,7 @@
             "title": "\u00d8del\u00e6g freden i Fredensborg"
         },
         "id": 20,
-        "name": "Fredensborg",
+        "name": "Fredensborg (Orange)",
         "neighbors": [
             18,
             23,
@@ -295,7 +295,7 @@
             "title": "Afkod vikingrunerne"
         },
         "id": 21,
-        "name": "Frederikssund",
+        "name": "Frederikssund (Orange)",
         "neighbors": [
             18,
             19,
@@ -328,7 +328,7 @@
             "title": "Plant et tr\u00e6, hvis skygge i aldrig vil sidde i."
         },
         "id": 23,
-        "name": "Gribskov",
+        "name": "Gribskov (Orange)",
         "neighbors": [
             20,
             24,
@@ -342,7 +342,7 @@
             "title": "Identitetspolitik"
         },
         "id": 24,
-        "name": "Halsn\u00e6s",
+        "name": "Halsn\u00e6s (Red)",
         "neighbors": [
             21,
             23,
@@ -355,7 +355,7 @@
             "title": "Genindf\u00f8r \u00d8resundstolden"
         },
         "id": 25,
-        "name": "Helsing\u00f8r",
+        "name": "Helsing\u00f8r (Orange)",
         "neighbors": [
             20,
             23
@@ -436,7 +436,7 @@
             "title": "Hyldest til Suzuki-Torben"
         },
         "id": 31,
-        "name": "K\u00f8ge",
+        "name": "K\u00f8ge (Orange)",
         "neighbors": [
             30,
             32,
@@ -449,7 +449,7 @@
             "title": "Become *the* Rap God"
         },
         "id": 32,
-        "name": "Roskilde",
+        "name": "Roskilde (Orange)",
         "neighbors": [
             12,
             19,
@@ -466,7 +466,7 @@
             "title": "Vi kigger p\u00e5 fugle \ud83c\udfb5"
         },
         "id": 33,
-        "name": "Lejre",
+        "name": "Lejre (Orange)",
         "neighbors": [
             21,
             31,
