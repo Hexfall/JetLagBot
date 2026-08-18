@@ -1,8 +1,8 @@
 {
     "1": {
         "challenge": {
-            "description": "K\u00f8benhavn kom f\u00f8rst til prominens som en k\u00f8bstad, grundet dens strategiske lokation og naturlige havne. Byen er derfor fyldt med havne og brygger.\nBes\u00f8g mindst X af f\u00f8lgende omr\u00e5der, og tag billed af jer ved siden af havet:\n- Nordhavn\n- S\u00f8ndre Frihavn\n- Inderhavnen\n- Nyhavn\n- Christianshavn\n- Islandsbrygge\n- Havneholmen\n- Enghave Brygge\n- Sydhavn (vandet lige nord for sluseholmen er ikke med)\nSe gr\u00e6nser p\u00e5 billed til h\u00f8jre i sheetet.\n\nX er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke n\u00f8dvendigvis forbundte) (desto l\u00e6ngere bagud i er, desto nemmere, og omvendt). I skal bes\u00f8ge i hvert fald en lokation p\u00e5 hver side af vandet.\nX sidder fast efter i tager jeres f\u00f8rste billed, ie hvis modstanderholdet klarer en udfordring imens I er i gang med denne, s\u00e5 bliver den ikke nemmere.",
-            "title": "K\u00f8bhavne i K\u00f8benhavn"
+            "description": "K\u00f8benhavns nok best ber\u00f8mte turist attraktion er (desv\u00e6rre) den lille havfrue statue. Men I kan nok finde nogen sejere statuer.\nFind og tag et billede af en teammate ved siden af X andre statuer rundt omkring i K\u00f8benhavn. Teammates skal holde (s\u00e5 vidt muligt) samme 'pose' som statuen. Halvdelen af billederne skal v\u00e6re af hver teammate.\nStatuerne skal:\n- Mindst v\u00e6re 1 meter h\u00f8je eller lange\n- Afbilde en humanoid\n- Ingen af statuerne m\u00e5 v\u00e6re inden for 100 meter af hinanden.\n\nX er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke n\u00f8dvendigvis forbundte) (desto l\u00e6ngere bagud i er, desto nemmere, og omvendt).\nX sidder fast efter i tager jeres f\u00f8rste billed, ie hvis modstanderholdet klarer en udfordring imens I er i gang med denne, s\u00e5 bliver den ikke nemmere.",
+            "title": "Den skuffende havfrue"
         },
         "id": 1,
         "name": "K\u00f8benhavn",
@@ -24,12 +24,13 @@
         "id": 2,
         "name": "Frederiksberg",
         "neighbors": [
-            1
+            1,
+            21
         ]
     },
     "3": {
         "challenge": {
-            "description": "Kommikeren Anders \"Anden\" Matthesen voksede op i Albertslund. I hans \u00e5nd, find en and og fort\u00e6l den en joke.",
+            "description": "Kommikeren Anders \"\"Anden\"\" Matthesen voksede op i Albertslund. \nI hans \u00e5nd, find en and og fort\u00e6l den en original joke om \u00e6nder. Udfordringen er f\u00f8rst klaret, n\u00e5r jeres valgte and har grint (rappet).\nHvis anden flyver v\u00e6k eller i p\u00e5 anden m\u00e5de ikke kan se den l\u00e6ngere, s\u00e5 skal i finde en ny and og pr\u00f8ve igen.",
             "title": "F\u00e5 en and til at grine"
         },
         "id": 3,
@@ -45,7 +46,7 @@
     },
     "4": {
         "challenge": {
-            "description": "Ballerup kommune har v\u00e6ret socialdemokratisk ledet siden 1933. Vis din st\u00f8tte til partiet ved at finde 24 forskellige r\u00f8de roser, en rose per kommunalvalg.\nAfbildninger af roser t\u00e6ller, men en bukket af roser t\u00e6ller kun for \u00e9n enkelt.",
+            "description": "Ballerup kommune har v\u00e6ret socialdemokratisk ledet siden 1933. \nVis jeres st\u00f8tte til partiet ved at tage et billede af\n- Et vejskilt som hedder enten noget med rose, blomst, eller r\u00f8d.\n- En plantet rose (alle farver t\u00e6ller her).\n- En r\u00f8d blomst p\u00e5 et stykke t\u00f8j.\nAlle billederne m\u00e5 kun tages minimum 500 meter fra en togstation.",
             "title": "St\u00f8t Socialdemokratiet"
         },
         "id": 4,
@@ -94,7 +95,8 @@
         "neighbors": [
             1,
             8,
-            14
+            14,
+            30
         ]
     },
     "8": {
@@ -114,7 +116,7 @@
     },
     "9": {
         "challenge": {
-            "description": "Glostrup er kendt for deres gamle vandt\u00e5rn fra 1897. T\u00e5rnet er 33.5 meter h\u00f8jt... men er det ikke lidt lavt? Det kan i vel g\u00f8re bedre.\nL\u00f8ft vand en samlet h\u00f8jde af 33.5 meter eller h\u00f8jere. Vandet beh\u00f8ver ikke blive l\u00f8ftet hele distancen p\u00e5 en gang, men hver l\u00f8ft skal v\u00e6re minimum 3 meter.",
+            "description": "Glostrups postnummer er 2600. G\u00f8r en af de f\u00f8lgende to ting:\n- Enten bev\u00e6g jer 2.6 km, eller\n- Udf\u00f8r en g\u00e5tur p\u00e5 260,0 meter (\u00b15 meter), hvis dit g\u00e6t er ude for intervallet, s\u00e5 skal du vente 5 minutter f\u00f8r n\u00e6ste fors\u00f8g. Hvert fors\u00f8g skal foreg\u00e5 p\u00e5 en ny vej.",
             "title": "T\u00e5rn jer over det gamle vandt\u00e5rn"
         },
         "id": 9,
@@ -129,7 +131,7 @@
     },
     "10": {
         "challenge": {
-            "description": "Herlev savner at folk ikke leger meget l\u00e6ngere. Opmundre Herlev ved at:\n- Spil g\u00e6t og grimasser 3 gange hver med valgfrie filmtitler. (No colluding!)\n- Spil \"\"Catch\"\" med en valgfri genstand over 10 meters distance med 5 gennemf\u00f8rte grib i streg.\n- Lav, op hop en hinkesti p\u00e5 minimum 10 hink. (En hvid-ish sten kan som reglt bruges some make-shift kridt)",
+            "description": "Herlev savner at folk ikke leger meget l\u00e6ngere. Opmundre alle Herlevs beboere ved at:\n- Find en legeplads. Spil \"Catch\" med en valgfri genstand over 10 meters distance med 5 gennemf\u00f8rte grib i streg.\n- Find en \"bar\" (skal have cocktail symbolet p\u00e5 maps). G\u00e6t hvilken farve den n\u00e6ste person, som runder et valgt hj\u00f8rne, har p\u00e5. Hvis i g\u00e6tter forkert, skal i vente 2 minutter, f\u00f8r i m\u00e5 g\u00e6tte igen.\n- Find en offentlig b\u00e6nk med rygl\u00e6n. Fra b\u00e6nken, lokaliser og identificer en fugl. I m\u00e5 godt bruge hj\u00e6lp fra Google.",
             "title": "Ha' det herligt i Herlev"
         },
         "id": 10,
@@ -145,7 +147,7 @@
     },
     "11": {
         "challenge": {
-            "description": "Hvid er s\u00e5 ovre. Men m\u00e5ske er det ikke i Hvidovre.\nG\u00e5 500m v\u00e6k fra nogen togstationer, for at finde de lokale. \nLokaliser 3 personer som g\u00e5r i minimum 2 artikler hvidt t\u00f8j. \nVis Danmark at hvid stadig er 'en vogue'",
+            "description": "Hvid er s\u00e5 ovre. Men m\u00e5ske er det ikke i Hvidovre.\nG\u00e5 500m v\u00e6k fra nogen togstationer, for at finde de lokale. \nLokaliser 4 personer, hvor \n- En har en hvid hat p\u00e5.\n- En har en hvid bluse eller jakke p\u00e5.\n- En har hvide bukser eller nederdel p\u00e5.\n- En har hvide sko eller sokker p\u00e5.\nVis Danmark at hvid stadig er 'en vogue'",
             "title": "Er hvid ovre i Hvidovre?"
         },
         "id": 11,
@@ -175,14 +177,15 @@
     },
     "13": {
         "challenge": {
-            "description": "Ish\u00f8j kommune har en den korteste forventede middel levealdre i Danmark af de kommuner vi har i spil. \nIt truly is no ~~country~~ kommune for old men. Channel your inner cowboy and duel to the death.\nI skal finde 2 genstande i kommunen i vil kaste og i skal finde en gr\u00e6spl\u00e6ne hvor i kan st\u00e5 ryg til ryg. \nI skal derefter g\u00e5 5 lange skridt frem, vende jer om og med det samme kaste genstanden p\u00e5 jeres fjende.\nSom i et rigtig duel skal i samtidig sige, 1... 2... 3... 4... 5... skyd!\nHvis i begge d\u00f8r (rammer hinaden), s\u00e5 har i hjulpet Ish\u00f8j med at holde middellevealderen nede og i har vundet kommunens k\u00e6rlighed.\nHvis i ikke begge bliver ramt eller i ikke skyder (stort set) samtidig, s\u00e5 skal i vente 5 minnuter f\u00f8r i kan duallere igen.",
-            "title": "No Kommune for Old Men"
+            "description": "Ish\u00f8j har (som etableret i vores tidligere spil) ikke det bedste ry af de danske kommuner.\nMen det er bl.a. ogs\u00e5 her ARKEN museum for samtidskunst h\u00f8rer hjemme, s\u00e5 nu skal I hj\u00e6lpe Ish\u00f8js ry ved at vise hvor kunstnerisk det er over det hele!\n\nSaml 4 pinde og l\u00e6g dem som en ramme rundt om 3 af de f\u00f8lgende ting. Tag et billede med et gruppemedlem i rammen der kigger beundrende p\u00e5 den moderne kunst.\nI skal g\u00e5 mindst 100 meter v\u00e6k efter hvert billede for at tage det n\u00e6ste (I m\u00e5 gerne g\u00e5 tilbage et omr\u00e5de hvor I tog et tidligere billede).\n\n- Et stykke menneskeskabt affald i en unaturlig farve (neon eller lys bl\u00e5, gr\u00f8n, gul, lilla eller r\u00f8d)\n- Et stykke l\u00f8st metal, f.eks. en skrue eller en d\u00e5se\n- Et stykke efterladt tyggegummi\n- Mindst 2 cigaretskodder\n- Et stykke organisk affald som nogen har spist fra, feks halvspist \u00e6ble, bananskr\u00e6l osv.\n- Et klisterm\u00e6rke \n",
+            "title": "Vis vestegnens \"kunst\""
         },
         "id": 13,
         "name": "Ish\u00f8j",
         "neighbors": [
             12,
             17,
+            28,
             29
         ]
     },
@@ -225,13 +228,14 @@
         "neighbors": [
             1,
             6,
-            11
+            11,
+            20
         ]
     },
     "17": {
         "challenge": {
-            "description": "Vallensb\u00e6k kommune er Danmarks n\u00e6st-mindste og den er utrolig smal. Det ikke nogen stor sag et g\u00e5 fra ende til ende. Men det beh\u00f8ver i ikke fort\u00e6lle vallensb\u00e6k.\nG\u00e5 \u00f8st til vest fra gr\u00e6nsen til Br\u00f8ndby kommune, til gr\u00e6nsen af Ish\u00f8j/H\u00f8je-Taastrup kommune. Eller omvendt vest til \u00f8st.\nI har ikke travlt, s\u00e5 i m\u00e5 ikke l\u00f8be eller tage nogen form for offentlig transport. \nN\u00e5r i er g\u00e5et ende til ende skal i fort\u00e6lle Vallensb\u00e6k kommune 'Woow du er *s\u00e5* stor'",
-            "title": "Short-king Vallensb\u00e6k"
+            "description": "Vallensb\u00e6k kommune er Danmarks n\u00e6stmindste, og der er selvf\u00f8lgelig (som en hvis Brennan LM ved) ikke noget bedre end at v\u00e6re 2'er.\n\nI skal finde 4 sten, 1 stor, 1 mellem, 1 lille (hvor enhver ville kunne se hvilken var ment som stor, mellem og lille) og 1 af valgfri st\u00f8rrelse som mark\u00f8r\nDerefter skal I placere mark\u00f8ren p\u00e5 jorden og tage 5 lange skridt v\u00e6k.\nKast stenene i valgfri r\u00e6kkef\u00f8lge - den mellemste sten skal v\u00e6re n\u00e6st-t\u00e6ttest p\u00e5 mark\u00f8ren og alle sten skal v\u00e6re inden for en halvanden meter af mark\u00f8ren. I m\u00e5 \u00f8ve jer s\u00e5 meget I vil f\u00f8r I starter jeres reelle fors\u00f8g.\nHvis den mellemste sten ikke er n\u00e6st-t\u00e6ttest, s\u00e5 tag 2 minutter til at se videoer af Danmarks curlinghold p\u00e5 YouTube (eller \u00f8v jer) og pr\u00f8v igen.\n",
+            "title": "Petanque i vANDENPLADSb\u00e6k"
         },
         "id": 17,
         "name": "Vallensb\u00e6k",
@@ -260,8 +264,8 @@
     },
     "19": {
         "challenge": {
-            "description": "Egedal kommune har haft mange problemer med deres navn. Egedal hed *Kongsdal* indtil trussel om sagsanl\u00e6g. Navnet *Egedal* blev derefter valgt p\u00e5 trods af endnu en trussel om sagsanl\u00e6g. \nFind det samme navn 2 steder og tag et billede af dem begge (fornavn eller efternavn). V\u00e6lg hvem der repr\u00e6senterer kommunen og hvem der repr\u00e6senterer privatpersonerne og derefter sl\u00e5 plat og krone to gange i tr\u00e6k, om hvem der m\u00e5 beholde deres navn. F\u00f8rst skal privatpersonen vinde og derefter skal kommunen vinde.",
-            "title": "Start en ny navnestrid"
+            "description": "Stenl\u00f8ses postnummer er 3660, s\u00e5 i skal fjerne 3.660 kg sten fra Egedal kommune.",
+            "title": "G\u00f8r Stenl\u00f8se til sten l\u00f8s"
         },
         "id": 19,
         "name": "Egedal",
@@ -282,6 +286,7 @@
         "id": 20,
         "name": "Fredensborg (Orange)",
         "neighbors": [
+            16,
             18,
             23,
             25,
@@ -297,6 +302,7 @@
         "id": 21,
         "name": "Frederikssund (Orange)",
         "neighbors": [
+            2,
             18,
             19,
             24,
@@ -328,7 +334,7 @@
             "title": "Plant et tr\u00e6, hvis skygge i aldrig vil sidde i."
         },
         "id": 23,
-        "name": "Gribskov (Orange)",
+        "name": "Gribskov (Red)",
         "neighbors": [
             20,
             24,
@@ -397,6 +403,7 @@
         "id": 28,
         "name": "Rudersdal",
         "neighbors": [
+            13,
             14,
             18,
             22,
@@ -405,7 +412,7 @@
     },
     "29": {
         "challenge": {
-            "description": "Greve blev lovet til dine forf\u00e6dre for 4000 \u00e5r siden, det er tid til at genvinde det!\nLav en krone af gr\u00e6s, h\u00f8 og minimum 3 forskellige blomster og overgiv den til en holdkamerat for at Erkl\u00e6re dem som den retsm\u00e6ssige greve af Greve.\nHvis den retsm\u00e6ssige greve kan g\u00e5 med kronen i 3 minutter uden den falder af hovedet eller fra hinaden, s\u00e5 har i vundet greve tilbage!\nKronen skal v\u00e6re minimum 10 centimeter i diameter, og m\u00e5 ikke bindes fast p\u00e5 nogen m\u00e5de til h\u00e5ret/hovedet. Den skal bare kunne sidde p\u00e5 hovedet.",
+            "description": "Greve blev lovet til dine forf\u00e6dre for 4000 \u00e5r siden, det er tid til at genvinde det!\nFor at du kan arve Greve, s\u00e5 skal du eje en masse jord, bogstavelig talt.\nAnskaf minimum en halv liter jord fra Greve kommune. \nN\u00e5r din holdkamerat har anskafet og overrakt dig en krone, scepter og kappe, s\u00e5 kan du erkl\u00e6re dig som den retsm\u00e6ssige greve af Greve.\nKronen skal minimum have en diameter p\u00e5 10 cm, scepteren skal minimum indeholde en \"\u00e6del\"sten og v\u00e6re en halv meter, og kappen skal kunne l\u00e6gges om dine skuldrer uden at falde af.",
             "title": "Erkl\u00e6r jeg som den retm\u00e6ssige greve."
         },
         "id": 29,
@@ -425,6 +432,7 @@
         "id": 30,
         "name": "Solr\u00f8d",
         "neighbors": [
+            7,
             29,
             31,
             32
@@ -445,7 +453,7 @@
     },
     "32": {
         "challenge": {
-            "description": "Roskilde l\u00e6gger plads til Danmarks st\u00f8rste live-musik festival, og Eminems optr\u00e6den p\u00e5 Orange Scene i 2018 var festivalens st\u00f8rste med mere end 100.000 i publikum. I skal nu overg\u00e5 hans koncert.\nV\u00e6lg tilf\u00e6ldigt en af Eminems mest lyttede-til sange p\u00e5 Spotify. L\u00e6r og udf\u00f8r et tilf\u00e6ldigt vers plus omkv\u00e6det. Den ene spiller skal synge verset, den anden skal synge omkv\u00e6det. Det beh\u00f8ver ikke v\u00e6re on-beat, men skal v\u00e6re i one take uden teksten.",
+            "description": "Roskilde l\u00e6gger plads til Danmarks st\u00f8rste live-musik festival, og Eminems optr\u00e6den p\u00e5 Orange Scene i 2018 var festivalens st\u00f8rste med mere end 100.000 i publikum. I skal nu overg\u00e5 hans koncert.\nV\u00e6lg tilf\u00e6ldigt en af Eminems mest lyttede-til sange p\u00e5 Spotify, og find en hel orange baggrund.\nOpf\u00f8r nu hans sang *karaoke-style*.",
             "title": "Become *the* Rap God"
         },
         "id": 32,
@@ -466,7 +474,7 @@
             "title": "Vi kigger p\u00e5 fugle \ud83c\udfb5"
         },
         "id": 33,
-        "name": "Lejre (Orange)",
+        "name": "Lejre (Red)",
         "neighbors": [
             21,
             31,

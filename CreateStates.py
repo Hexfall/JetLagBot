@@ -9,21 +9,15 @@ koebenhavn = State(
     1,
     "København",
     challenge=Challenge(
-"Købhavne i København",
-"""København kom først til prominens som en købstad, grundet dens strategiske lokation og naturlige havne. Byen er derfor fyldt med havne og brygger.
-Besøg mindst X af følgende områder, og tag billed af jer ved siden af havet:
-- Nordhavn
-- Søndre Frihavn
-- Inderhavnen
-- Nyhavn
-- Christianshavn
-- Islandsbrygge
-- Havneholmen
-- Enghave Brygge
-- Sydhavn (vandet lige nord for sluseholmen er ikke med)
-Se grænser på billed til højre i sheetet.
+"Den skuffende havfrue",
+"""Københavns nok best berømte turist attraktion er (desværre) den lille havfrue statue. Men I kan nok finde nogen sejere statuer.
+Find og tag et billede af en teammate ved siden af X andre statuer rundt omkring i København. Teammates skal holde (så vidt muligt) samme 'pose' som statuen. Halvdelen af billederne skal være af hver teammate.
+Statuerne skal:
+- Mindst være 1 meter høje eller lange
+- Afbilde en humanoid
+- Ingen af statuerne må være inden for 100 meter af hinanden.
 
-X er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke nødvendigvis forbundte) (desto længere bagud i er, desto nemmere, og omvendt). I skal besøge i hvert fald en lokation på hver side af vandet.
+X er lige ved 5 +/- forskellen mellem holdenes claimede kommuner (ikke nødvendigvis forbundte) (desto længere bagud i er, desto nemmere, og omvendt).
 X sidder fast efter i tager jeres første billed, ie hvis modstanderholdet klarer en udfordring imens I er i gang med denne, så bliver den ikke nemmere.""",
     ),
 )
@@ -43,7 +37,9 @@ albertslund = State(
     "Albertslund",
     challenge=Challenge(
         "Få en and til at grine",
-        """Kommikeren Anders "Anden" Matthesen voksede op i Albertslund. I hans ånd, find en and og fortæl den en joke.""",
+        """Kommikeren Anders ""Anden"" Matthesen voksede op i Albertslund. 
+I hans ånd, find en and og fortæl den en original joke om ænder. Udfordringen er først klaret, når jeres valgte and har grint (rappet).
+Hvis anden flyver væk eller i på anden måde ikke kan se den længere, så skal i finde en ny and og prøve igen.""",
     ),
 )
 ballerup = State(
@@ -51,8 +47,12 @@ ballerup = State(
     "Ballerup",
     challenge=Challenge(
         "Støt Socialdemokratiet",
-        """Ballerup kommune har været socialdemokratisk ledet siden 1933. Vis din støtte til partiet ved at finde 24 forskellige røde roser, en rose per kommunalvalg.
-Afbildninger af roser tæller, men en bukket af roser tæller kun for én enkelt.""",
+        """Ballerup kommune har været socialdemokratisk ledet siden 1933. 
+Vis jeres støtte til partiet ved at tage et billede af
+- Et vejskilt som hedder enten noget med rose, blomst, eller rød.
+- En plantet rose (alle farver tæller her).
+- En rød blomst på et stykke tøj.
+Alle billederne må kun tages minimum 500 meter fra en togstation.""",
     ),
 )
 broendby = State(
@@ -108,8 +108,9 @@ glostrup = State(
     "Glostrup",
     challenge=Challenge(
         "Tårn jer over det gamle vandtårn",
-        """Glostrup er kendt for deres gamle vandtårn fra 1897. Tårnet er 33.5 meter højt... men er det ikke lidt lavt? Det kan i vel gøre bedre.
-Løft vand en samlet højde af 33.5 meter eller højere. Vandet behøver ikke blive løftet hele distancen på en gang, men hver løft skal være minimum 3 meter.""",
+        """Glostrups postnummer er 2600. Gør en af de følgende to ting:
+- Enten bevæg jer 2.6 km, eller
+- Udfør en gåtur på 260,0 meter (±5 meter), hvis dit gæt er ude for intervallet, så skal du vente 5 minutter før næste forsøg. Hvert forsøg skal foregå på en ny vej.""",
     ),
 )
 herlev = State(
@@ -117,10 +118,10 @@ herlev = State(
     "Herlev",
     challenge=Challenge(
         "Ha' det herligt i Herlev",
-        """Herlev savner at folk ikke leger meget længere. Opmundre Herlev ved at:
-- Spil gæt og grimasser 3 gange hver med valgfrie filmtitler. (No colluding!)
-- Spil ""Catch"" med en valgfri genstand over 10 meters distance med 5 gennemførte grib i streg.
-- Lav, op hop en hinkesti på minimum 10 hink. (En hvid-ish sten kan som reglt bruges some make-shift kridt)""",
+        """Herlev savner at folk ikke leger meget længere. Opmundre alle Herlevs beboere ved at:
+- Find en legeplads. Spil "Catch" med en valgfri genstand over 10 meters distance med 5 gennemførte grib i streg.
+- Find en "bar" (skal have cocktail symbolet på maps). Gæt hvilken farve den næste person, som runder et valgt hjørne, har på. Hvis i gætter forkert, skal i vente 2 minutter, før i må gætte igen.
+- Find en offentlig bænk med ryglæn. Fra bænken, lokaliser og identificer en fugl. I må godt bruge hjælp fra Google.""",
     ),
 )
 hvidovre = State(
@@ -130,7 +131,11 @@ hvidovre = State(
         "Er hvid ovre i Hvidovre?",
         """Hvid er så ovre. Men måske er det ikke i Hvidovre.
 Gå 500m væk fra nogen togstationer, for at finde de lokale. 
-Lokaliser 3 personer som går i minimum 2 artikler hvidt tøj. 
+Lokaliser 4 personer, hvor 
+- En har en hvid hat på.
+- En har en hvid bluse eller jakke på.
+- En har hvide bukser eller nederdel på.
+- En har hvide sko eller sokker på.
 Vis Danmark at hvid stadig er 'en vogue'""",
     ),
 )
@@ -155,14 +160,20 @@ ishoej = State(
     13,
     "Ishøj",
     challenge=Challenge(
-        "No Kommune for Old Men",
-        """Ishøj kommune har en den korteste forventede middel levealdre i Danmark af de kommuner vi har i spil. 
-It truly is no ~~country~~ kommune for old men. Channel your inner cowboy and duel to the death.
-I skal finde 2 genstande i kommunen i vil kaste og i skal finde en græsplæne hvor i kan stå ryg til ryg. 
-I skal derefter gå 5 lange skridt frem, vende jer om og med det samme kaste genstanden på jeres fjende.
-Som i et rigtig duel skal i samtidig sige, 1... 2... 3... 4... 5... skyd!
-Hvis i begge dør (rammer hinaden), så har i hjulpet Ishøj med at holde middellevealderen nede og i har vundet kommunens kærlighed.
-Hvis i ikke begge bliver ramt eller i ikke skyder (stort set) samtidig, så skal i vente 5 minnuter før i kan duallere igen.""",
+        "Vis vestegnens \"kunst\"",
+        """Ishøj har (som etableret i vores tidligere spil) ikke det bedste ry af de danske kommuner.
+Men det er bl.a. også her ARKEN museum for samtidskunst hører hjemme, så nu skal I hjælpe Ishøjs ry ved at vise hvor kunstnerisk det er over det hele!
+
+Saml 4 pinde og læg dem som en ramme rundt om 3 af de følgende ting. Tag et billede med et gruppemedlem i rammen der kigger beundrende på den moderne kunst.
+I skal gå mindst 100 meter væk efter hvert billede for at tage det næste (I må gerne gå tilbage et område hvor I tog et tidligere billede).
+
+- Et stykke menneskeskabt affald i en unaturlig farve (neon eller lys blå, grøn, gul, lilla eller rød)
+- Et stykke løst metal, f.eks. en skrue eller en dåse
+- Et stykke efterladt tyggegummi
+- Mindst 2 cigaretskodder
+- Et stykke organisk affald som nogen har spist fra, feks halvspist æble, bananskræl osv.
+- Et klistermærke 
+""",
     ),
 )
 lyngby_taarbaek = State(
@@ -213,11 +224,14 @@ vallensbaek = State(
     17,
     "Vallensbæk",
     challenge=Challenge(
-        "Short-king Vallensbæk",
-        """Vallensbæk kommune er Danmarks næst-mindste og den er utrolig smal. Det ikke nogen stor sag et gå fra ende til ende. Men det behøver i ikke fortælle vallensbæk.
-Gå øst til vest fra grænsen til Brøndby kommune, til grænsen af Ishøj/Høje-Taastrup kommune. Eller omvendt vest til øst.
-I har ikke travlt, så i må ikke løbe eller tage nogen form for offentlig transport. 
-Når i er gået ende til ende skal i fortælle Vallensbæk kommune 'Woow du er *så* stor'""",
+        "Petanque i vANDENPLADSbæk",
+        """Vallensbæk kommune er Danmarks næstmindste, og der er selvfølgelig (som en hvis Brennan LM ved) ikke noget bedre end at være 2'er.
+
+I skal finde 4 sten, 1 stor, 1 mellem, 1 lille (hvor enhver ville kunne se hvilken var ment som stor, mellem og lille) og 1 af valgfri størrelse som markør
+Derefter skal I placere markøren på jorden og tage 5 lange skridt væk.
+Kast stenene i valgfri rækkefølge - den mellemste sten skal være næst-tættest på markøren og alle sten skal være inden for en halvanden meter af markøren. I må øve jer så meget I vil før I starter jeres reelle forsøg.
+Hvis den mellemste sten ikke er næst-tættest, så tag 2 minutter til at se videoer af Danmarks curlinghold på YouTube (eller øv jer) og prøv igen.
+""",
     ),
 )
 alleroed = State(
@@ -234,9 +248,8 @@ egedal = State(
     19,
     "Egedal",
     challenge=Challenge(
-        "Start en ny navnestrid",
-        """Egedal kommune har haft mange problemer med deres navn. Egedal hed *Kongsdal* indtil trussel om sagsanlæg. Navnet *Egedal* blev derefter valgt på trods af endnu en trussel om sagsanlæg. 
-Find det samme navn 2 steder og tag et billede af dem begge (fornavn eller efternavn). Vælg hvem der repræsenterer kommunen og hvem der repræsenterer privatpersonerne og derefter slå plat og krone to gange i træk, om hvem der må beholde deres navn. Først skal privatpersonen vinde og derefter skal kommunen vinde.""",
+        "Gør Stenløse til sten løs",
+        """Stenløses postnummer er 3660, så i skal fjerne 3.660 kg sten fra Egedal kommune.""",
     ),
 )
 fredensborg = State(
@@ -270,7 +283,7 @@ Sønderssø og Farum sø, og slå søen fysisk med din knytnæve. That'll show e
 )
 gribskov = State(
     23,
-    "Gribskov (Orange)",
+    "Gribskov (Red)",
     challenge=Challenge(
         "Plant et træ, hvis skygge i aldrig vil sidde i.",
         """Det bedste tidspunkt at plante et træ var 30 år siden, det næstbedste tidspunkt er lige nu. Altså *nu* nu.
@@ -340,9 +353,10 @@ greve = State(
     challenge=Challenge(
         "Erklær jeg som den retmæssige greve.",
         """Greve blev lovet til dine forfædre for 4000 år siden, det er tid til at genvinde det!
-Lav en krone af græs, hø og minimum 3 forskellige blomster og overgiv den til en holdkamerat for at Erklære dem som den retsmæssige greve af Greve.
-Hvis den retsmæssige greve kan gå med kronen i 3 minutter uden den falder af hovedet eller fra hinaden, så har i vundet greve tilbage!
-Kronen skal være minimum 10 centimeter i diameter, og må ikke bindes fast på nogen måde til håret/hovedet. Den skal bare kunne sidde på hovedet.""",
+For at du kan arve Greve, så skal du eje en masse jord, bogstavelig talt.
+Anskaf minimum en halv liter jord fra Greve kommune. 
+Når din holdkamerat har anskafet og overrakt dig en krone, scepter og kappe, så kan du erklære dig som den retsmæssige greve af Greve.
+Kronen skal minimum have en diameter på 10 cm, scepteren skal minimum indeholde en "ædel"sten og være en halv meter, og kappen skal kunne lægges om dine skuldrer uden at falde af.""",
     ),
 )
 solroed = State(
@@ -376,12 +390,13 @@ roskilde = State(
     challenge=Challenge(
         "Become *the* Rap God",
         """Roskilde lægger plads til Danmarks største live-musik festival, og Eminems optræden på Orange Scene i 2018 var festivalens største med mere end 100.000 i publikum. I skal nu overgå hans koncert.
-Vælg tilfældigt en af Eminems mest lyttede-til sange på Spotify. Lær og udfør et tilfældigt vers plus omkvædet. Den ene spiller skal synge verset, den anden skal synge omkvædet. Det behøver ikke være on-beat, men skal være i one take uden teksten.""",
+Vælg tilfældigt en af Eminems mest lyttede-til sange på Spotify, og find en hel orange baggrund.
+Opfør nu hans sang *karaoke-style*.""",
     ),
 )
 lejre = State(
     33,
-    "Lejre (Orange)",
+    "Lejre (Red)",
     challenge=Challenge(
         "Vi kigger på fugle 🎵",
         """Én fugl i hånden er bedre end ti på taget. Men vi tager hvad vi kan få.
@@ -399,7 +414,6 @@ edges: list[tuple[State, State]] = [
     (koebenhavn, gladsaxe),
     (koebenhavn, gentofte),
     (taarnby, dragoer),
-    (taarnby, hvidovre),
     (hvidovre, roedovre),
     (hvidovre, broendby),
     (broendby, roedovre),
@@ -463,6 +477,13 @@ edges: list[tuple[State, State]] = [
     (fredensborg, helsingoer),
     (halsnaes, gribskov),
     (gribskov, helsingoer),
+
+    # Tunnels
+    (taarnby, hvidovre),
+    (taarnby, fredensborg),
+    (ishoej, rudersdal),
+    (solroed, gentofte),
+    (frederiksberg, frederikssund),
 ]
 
 for edge in edges:
@@ -495,3 +516,8 @@ if __name__ == "__main__":
             for neighbor in state.neighbors:
                 print(f"  - {sm.get_state(neighbor).name}")
         print(len(sm.states))
+
+    statelist = list(states.values())
+    statelist.sort(key=lambda s: -len(s.neighbors))
+    for s in statelist:
+       print(f"{s.name}: {len(s.neighbors)}")
