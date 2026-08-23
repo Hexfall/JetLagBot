@@ -6,5 +6,5 @@ async def IGNORE_RESPONSE(interaction):
     await interaction.response.defer()
 
 TABLEAU_SIZE = 6
-HOURS_PER_PRIVATE_CARD = 3
+HOURS_PER_PRIVATE_CARD = 2
 PRIVATE_HAND_SIZE = 3
